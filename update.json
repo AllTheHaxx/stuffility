@@ -1,0 +1,18 @@
+[
+  {
+    "version": "ath.0.13",
+    "client": true,
+    "download": [""],
+    "external":
+    [
+      {
+        "source": "Lua-Scripts",
+        "files": ["Calc.lua"],
+      },
+      {
+        "source": "stuffility",
+        "files": ["LuaManual.pdf", "ATHManual.pdf"],
+      },
+    ],
+  },
+]
