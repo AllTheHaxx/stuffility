@@ -7,12 +7,12 @@
     "external":
     [
       {
-        "source": "Lua-Scripts/master",
+        "source": "~Lua-Scripts/master",
         "files": ["Calc.lua"],
         "dests": ["lua/katze"],
       },
       {
-        "source": "stuffility/master",
+        "source": "~stuffility/master",
         "files": ["LuaManual.pdf", "ATHManual.pdf"],
         "dests": ["alatestonika",  "alatestonika"],
       },
