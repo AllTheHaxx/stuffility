@@ -9,12 +9,12 @@
       {
         "source": "~Lua-Scripts/master",
         "files": ["Calc.lua"],
-        "dests": ["lua/katze"],
+        "dests": ["lua/katze/tehcalc.lua"],
       },
       {
         "source": "~stuffility/master",
         "files": ["LuaManual.pdf", "ATHManual.pdf"],
-        "dests": ["alatestonika",  "alatestonika"],
+        "dests": ["alatestonika/LuaManual.pdf",  "alatestonika/ATHManual.pdf"],
       },
     ],
   },
