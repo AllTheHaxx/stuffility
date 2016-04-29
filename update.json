@@ -13,18 +13,4 @@
       },
     ],
   },
-  {
-    "version": "ath.0.13",
-    "client": true,
-    "download": [""],
-    "remove": [""],
-    "external":
-    [
-      {
-        "source": "~Lua-Scripts/master",
-        "files": ["Calc.lua"],
-        "dests": ["lua/"],
-      },
-    ],
-  },
 ]
