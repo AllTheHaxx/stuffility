@@ -1,5 +1,12 @@
 [
   {
+    "version": "0.13.1",
+    "client": true,
+    "download": [""],
+    "remove": [""],
+    "external": [  ],
+  },
+  {
     "version": "ath.0.13",
     "client": true,
     "download": [""],
