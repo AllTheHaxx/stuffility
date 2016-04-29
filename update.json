@@ -3,8 +3,15 @@
     "version": "0.13.1",
     "client": true,
     "download": [""],
-    "remove": [""],
-    "external": [  ],
+    "remove": ["+ ATHManual.pdf", "+ LuaManual.pdf", "ATHManual.pdf", "LuaManual.pdf"],
+    "external":
+    [
+      {
+        "source": "~stuffility/master",
+        "files": ["LuaManual.pdf", "ATHManual.pdf"],
+        "dests": ["man/",  "man/"],
+      },
+    ],
   },
   {
     "version": "ath.0.13",
@@ -17,11 +24,6 @@
         "source": "~Lua-Scripts/master",
         "files": ["Calc.lua"],
         "dests": ["lua/"],
-      },
-      {
-        "source": "~stuffility/master",
-        "files": ["LuaManual.pdf", "ATHManual.pdf"],
-        "dests": ["man/",  "man/"],
       },
     ],
   },
