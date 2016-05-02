@@ -1,7 +1,7 @@
 [
   {
     "version": "0.14",
-    "client": true,
+    "client": false,
     "download": [""],
     "remove": [""],
     "external":
