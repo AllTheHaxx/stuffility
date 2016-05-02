@@ -8,7 +8,7 @@
     [
       {
         "source": "~stuffility/master",
-        "download": ["LuaManual.pdf", "ATHManual.pdf"],
+        "files": ["LuaManual.pdf", "ATHManual.pdf"],
         "dests": ["man/",  "man/"],
       },
     ],
