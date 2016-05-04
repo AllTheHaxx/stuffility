@@ -1,0 +1,21 @@
+|Welcome to our own news page :)|
+AllTheHaxx news are finally there!
+
+|AllTheHaxx 0.14|
+Many things have changed in the next version; the maybe
+biggest thing is that we updated the internal DDNet code
+to version 10.0.1 which is bringing SDL2 to Teeworlds.
+
+Doesn't matter if you don't know what it does or why
+it is something special, but there are a few things
+you need to know:
+
+- Update your settings:
+   * You may need to lower your mouse sensitivity a bit
+   * You may need to rebind some keys, because keynames changed
+    
+- Special about this update:
+  * You can now use the clipboard (CTRL-C, CTRL-V)
+  * It is possible to change resolution and fullscreen mode
+    without needing to restart
+  * On some systems the FPS are more stable (yay!)
