@@ -19,3 +19,4 @@ you need to know:
   * It is possible to change resolution and fullscreen mode
     without needing to restart
   * On some systems the FPS are more stable (yay!)
+
