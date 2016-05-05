@@ -33,7 +33,7 @@
       },
       {
         "source": "~stuffility/master",
-        "files": ["LuaManual.pdf", "ATHManual.pdf", "++ IMPROTANT! READ ME!.txt"],
+        "files": ["LuaManual.pdf", "ATHManual.pdf", "ATH-README.txt"],
         "dests": ["man/",  "man/", "./"],
       },
     ],
