@@ -14,7 +14,7 @@
       {
         "source": "~Lua-Scripts/master",
         "files": ["GetTileID.lua", "Calc.lua", "koglvl.lua", ".library/twutils.lua", ".library/stringutils.lua"],
-        "dests": ["lua/"],
+        "dests": ["lua/", "lua/", "lua/", "lua/", "lua/"],
       },
       {
         "source": "~stuffility/master",
@@ -24,3 +24,4 @@
     ],
   },
 ]
+
