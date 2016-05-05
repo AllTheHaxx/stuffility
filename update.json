@@ -1,13 +1,5 @@
 [
   {
-    "version": "0.14.1",
-    "numeric": 141,
-    "client": true,
-    "download": false,
-    "remove": false,
-    "external": false,
-  },
-  {
     "version": "0.14",
     "client": true,
     "download": ["data/luabase/events.lua", "data/blob.png", "data/languages/index.txt", "data/editor/entities_clear/ddnet.png", "data/editor/entities_clear/ddrace.png", "data/editor/entities_clear/fng.png", "data/editor/entities_clear/race.png", "data/editor/entities_clear/vanilla.png"],
