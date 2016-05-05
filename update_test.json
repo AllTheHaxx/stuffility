@@ -1,5 +1,13 @@
 [
   {
+    "version": "0.15",
+    "numeric": 150,
+    "client": true,
+    "download": [""],
+    "remove": [""],
+    "external": false,
+  },
+  {
     "version": "0.14.1",
     "numeric": 141,
     "client": true,
