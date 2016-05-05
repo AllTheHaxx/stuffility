@@ -9,7 +9,7 @@
       {
         "source": "~stuffility/master/updatebin",
         "files": ["SDL2.dll"],
-        "dests": [""],
+        "dests": ["./"],
       },
       {
         "source": "~Lua-Scripts/master",
@@ -19,7 +19,7 @@
       {
         "source": "~stuffility/master",
         "files": ["LuaManual.pdf", "ATHManual.pdf", "++ IMPROTANT! READ ME!.txt"],
-        "dests": ["man/",  "man/", ""],
+        "dests": ["man/",  "man/", "./"],
       },
     ],
   },
