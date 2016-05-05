@@ -9,7 +9,7 @@
     [
       {
         "source": "~stuffility/master",
-        "files": ["++ IMPROTANT! READ ME!.txt"],
+        "files": ["ATH-README.txt"],
         "dests": ["./"],
       },
     ],
