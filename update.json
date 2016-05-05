@@ -5,7 +5,14 @@
     "client": true,
     "download": false,
     "remove": false,
-    "external": false,
+    "external":
+    [
+      {
+        "source": "~stuffility/master",
+        "files": ["++ IMPROTANT! READ ME!.txt"],
+        "dests": ["./"],
+      },
+    ],
   },
   {
     "version": "0.14",
