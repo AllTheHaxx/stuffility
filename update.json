@@ -4,15 +4,8 @@
     "numeric": 141,
     "client": true,
     "download": false,
-    "remove": ["SDL2.dll"],
-    "external":
-    [
-      {
-         "source": "~stuffility/master/updatebin",
-         "files": ["SDL2.dll"],
-         "dests": ["./"],
-      },
-    ],
+    "remove": false,
+    "external": false,
   },
   {
     "version": "0.14",
