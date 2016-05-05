@@ -4,7 +4,7 @@
     "numeric": 141,
     "client": true,
     "download": false,
-    "remove": false,
+    "remove": ["++ IMPROTANT! READ ME!.txt"],
     "external":
     [
       {
