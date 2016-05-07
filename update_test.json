@@ -31,12 +31,6 @@
         "files": ["LuaManual.odf", "data/languages/german.txt", "bam.lua"],
         "dest": "ztest1/",
       },
-      {
-        "repo": "stuffility",
-        "tree": "7fbc40af69aa49571db00a6874642947981a5561",
-        "files": ["++ IMPROTANT! READ ME!.txt"],
-        "dest": "ztest1/",
-      },
     ],
   },
 ]
