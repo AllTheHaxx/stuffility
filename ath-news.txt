@@ -2,7 +2,7 @@
 AllTheHaxx news are finally there!
 
 |AllTheHaxx 0.14.3|
-Please download this release manually from "https://allthehaxx.github.com"!
+Please download this release manually from "https://allthehaxx.github.io"!
 The Autoupdater won't show it because of internal restructuring.
 This version is essential or any further releases.
 
