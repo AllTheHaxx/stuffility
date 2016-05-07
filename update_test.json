@@ -1,0 +1,23 @@
+[
+  {
+    "version": "0.14.3",
+    "numeric": 143,
+    "remove": [""],
+    "download":
+    [
+      {
+        "repo": "~AllTheHaxx",
+        "tree": "f8552e7c80b8650d5a60d67ff18d9e67bc6a487b",
+        "files": ["data/gameskins/messenger.png", "data/languages/german.txt", "data/ca-ddnet.pem"],
+        "dest": "./ztest/",
+      },
+      {
+        "repo": "~stuffility",
+        "tree": "9ff2894eb8011221fad116a143183813a334f568",
+        "files": ["ATH-README.txt"],
+        "dest": ["./ztest2/"],
+      },
+    ],
+  },
+]
+
