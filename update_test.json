@@ -15,7 +15,7 @@
         "repo": "~stuffility",
         "tree": "9ff2894eb8011221fad116a143183813a334f568",
         "files": ["ATH-README.txt"],
-        "dest": ["./ztest2/"],
+        "dest": "./ztest2/",
       },
     ],
   },
