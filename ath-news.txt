@@ -1,8 +1,8 @@
 |Welcome to our own news page :)|
 AllTheHaxx news are finally there!
 
-|AllTheHaxx 0.14.3| - 07.05.2016
-Please download this release manually from allthehaxx.tk!
+|AllTheHaxx 0.14.3|
+Please download this release manually from "https://allthehaxx.github.com"!
 The Autoupdater won't show it because of internal restructuring.
 This version is essential or any further releases.
 
@@ -11,9 +11,7 @@ Many things have changed in this version; the maybe
 biggest thing is that we updated the internal DDNet code
 to version 10.0.1 which brings SDL2 to Teeworlds!
 
-It doesn't matter if you don't know what it does or why
-it is something special, but there are a few things
-you need to know:
+A few things you need to know:
 
 - Update your settings:
    * You may need to lower your mouse sensitivity a bit
