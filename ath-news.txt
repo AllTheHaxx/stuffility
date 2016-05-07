@@ -1,6 +1,11 @@
 |Welcome to our own news page :)|
 AllTheHaxx news are finally there!
 
+|AllTheHaxx 0.14.3| - 07.05.2016
+Please download this release manually from allthehaxx.tk!
+The Autoupdater won't show it because of internal restructuring.
+This version is essential or any further releases.
+
 |AllTheHaxx 0.14|
 Many things have changed in this version; the maybe
 biggest thing is that we updated the internal DDNet code
