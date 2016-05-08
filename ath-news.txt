@@ -1,25 +1,26 @@
 |Welcome to our own news page :)|
-AllTheHaxx news are finally there!
+AllTheHaxx news are finally here!
+
+
+|AllTheHaxx 0.14.4|
+Maaaaaany fixed + updated DDNet to the newest version.
+
+→ ↓ IMPORTANT ↓ ←
+Because I was very dumb and forgot some debugging
+stuff in the code, you have to download the binary
+file manually. I shortened the links for you:
+
+ * WINDOWS.....: git.io/vwj8m
+ * LINUX 64 bit: git.io/vwjl5
+ 
+Good news: This issue is fixed in 0.14.4 phew...
+
 
 |AllTheHaxx 0.14.3|
 Please download this release manually from "https://allthehaxx.github.io"!
 The Autoupdater won't show it because of internal restructuring.
 This version is essential or any further releases.
 
+
 |AllTheHaxx 0.14|
-Many things have changed in this version; the maybe
-biggest thing is that we updated the internal DDNet code
-to version 10.0.1 which brings SDL2 to Teeworlds!
-
-A few things you need to know:
-
-- Update your settings:
-   * You may need to lower your mouse sensitivity a bit
-   * You may need to rebind some keys, because keynames changed
-    
-- Special about this update:
-  * You can now use the clipboard (CTRL-C, CTRL-V)
-  * It is possible to change resolution and fullscreen mode
-    without needing to restart
-  * On some systems the FPS are more stable (yay!)
-
+The SDL2 release.
