@@ -1,7 +1,3 @@
-|Welcome to our own news page :)|
-AllTheHaxx news are finally here!
-
-
 |AllTheHaxx 0.14.4|
 Maaaaaany fixed + updated DDNet to the newest version.
 
@@ -15,12 +11,10 @@ file manually. I shortened the links for you:
  
 Good news: This issue is fixed in 0.14.4 phew...
 
-
 |AllTheHaxx 0.14.3|
 Please download this release manually from "https://allthehaxx.github.io"!
 The Autoupdater won't show it because of internal restructuring.
 This version is essential or any further releases.
-
 
 |AllTheHaxx 0.14|
 The SDL2 release.
