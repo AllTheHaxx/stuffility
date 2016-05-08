@@ -6,7 +6,7 @@ Because I was very dumb and forgot some debugging
 stuff in the code, you have to download the binary
 file manually. I shortened the links for you:
 
- * WINDOWS.....: git.io/vwj8m
+ * WINDOWS...: git.io/vwj8m
  * LINUX 64 bit: git.io/vwjl5
  
 Good news: This issue is fixed in 0.14.4 phew...
