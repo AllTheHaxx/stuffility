@@ -1,5 +1,20 @@
 [
   {
+    "version": "0.14.4",
+    "numeric": 144,
+    "client": false,
+    "download": false,
+    "remove": false,
+    "external":
+    [
+      {
+        "source": "~stuffility/master",
+        "files": ["++++ UpdateNote ++++.txt"],
+        "dests": ["./"],
+      },
+    ],
+  },
+  {
     "version": "0.14.1",
     "numeric": 141,
     "client": true,
