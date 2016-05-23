@@ -1,17 +1,18 @@
-|AllTheHaxx 0.15.0|
+|AllTheHaxx 0.15.1|
+- Fixed updater and DDNet news
+- Chat Tees
 - Cute tweaks <3
 - Updated internal DDNet code to version 10.1.1
 
-|AllTheHaxx 0.14.4|
-Maaaaaaany fixed + updated DDNet to the newest version.
-
 →→ IMPORTANT
-Because I was very dumb and forgot some debugging
-stuff in the code, you have to download the binary
-file manually. I shortened the links for you:
+You need to download it manually again, I'm sorry :(
+Please replace your whole client folder with the new one
+you'll get from the archive.
 
- * WINDOWS...: git.io/vwj8m
- * LINUX 64 bit: git.io/vwjl5
- 
-Good news: This issue is fixed in >0.14.4 phew...
+Here are the shortened links for your convenience:
 
+ * WINDOWS...: git.io/vrVEO
+ * LINUX 64 bit: git.io/vrVBD
+
+|AllTheHaxx 0.14.4|
+Maaaaaaany fixes + updated DDNet to the newest version.
