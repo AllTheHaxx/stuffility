@@ -1,3 +1,6 @@
+|AllTheHaxx 0.15.1.1|
+Fixup release to remove the chat bug
+
 |AllTheHaxx 0.15.1|
 - Fixed updater and DDNet news
 - Chat Tees
