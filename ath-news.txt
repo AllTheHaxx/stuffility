@@ -3,7 +3,7 @@
 - Updated internal DDNet code to version 10.1.1
 
 |AllTheHaxx 0.14.4|
-Maaaaaany fixed + updated DDNet to the newest version.
+Maaaaaaany fixed + updated DDNet to the newest version.
 
 →→ IMPORTANT
 Because I was very dumb and forgot some debugging
