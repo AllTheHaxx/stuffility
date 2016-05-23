@@ -1,7 +1,11 @@
+|AllTheHaxx 0.15.0|
+- Cute tweaks <3
+- Updated internal DDNet code to version 10.1.1
+
 |AllTheHaxx 0.14.4|
 Maaaaaany fixed + updated DDNet to the newest version.
 
-→ ↓ IMPORTANT ↓ ←
+→→ IMPORTANT
 Because I was very dumb and forgot some debugging
 stuff in the code, you have to download the binary
 file manually. I shortened the links for you:
@@ -9,12 +13,5 @@ file manually. I shortened the links for you:
  * WINDOWS...: git.io/vwj8m
  * LINUX 64 bit: git.io/vwjl5
  
-Good news: This issue is fixed in 0.14.4 phew...
+Good news: This issue is fixed in >0.14.4 phew...
 
-|AllTheHaxx 0.14.3|
-Please download this release manually from "https://allthehaxx.github.io"!
-The Autoupdater won't show it because of internal restructuring.
-This version is essential or any further releases.
-
-|AllTheHaxx 0.14|
-The SDL2 release.

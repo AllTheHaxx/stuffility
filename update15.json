@@ -1,5 +1,31 @@
 [
   {
+    "version": "0.15.0",
+    "numeric": 150,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "AllTheHaxx",
+        "tree": "a370e60e35fcc5333199db589d80baf96221f2fb",
+        "files": ["data/gameskins/messenger.png", "data/gameskins/unknown1.png", "data/languages/german.txt", "data/languages/persian.txt", "data/languages/simplified_chinese.txt"],
+        "dest": "./",
+      },
+      {
+        "repo": "Lua-Scripts",
+        "tree": "ec2530e3e4a66482bc4e35198a412b5c2b61a5c7",
+        "files": ["ChatLog.lua"],
+        "dest": "lua/",
+      },
+      {
+        "repo": "stuffility",
+        "tree": "83e8ca6e262d4a72bc4959059a35a6c373496372",
+        "files": ["ATH-README.txt"],
+        "dest": "./",
+      },
+    ],
+  },
+  {
     "version": "0.14.4",
     "numeric": 144,
     "remove": false,
