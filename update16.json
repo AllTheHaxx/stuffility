@@ -1,5 +1,25 @@
 [
   {
+    "version": "0.15.1.1",
+    "numeric": 1511,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "stuffility",
+        "tree": "ed941a227f1ad988a0d8039c99a2045ae3823d63",
+        "files": ["ATH-README.txt"],
+        "dest": "./",
+      },
+      {
+        "repo": "Lua-Scripts",
+        "tree": "3816e179888e11b687027bc9cc6824ef4b9633c1",
+        "files": ["ChatJump.lua"],
+        "dest": "lua/",
+      },
+    ],
+  },
+  {
     "version": "0.15.1",
     "numeric": 151,
     "remove": false,
