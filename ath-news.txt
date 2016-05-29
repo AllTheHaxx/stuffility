@@ -4,10 +4,8 @@ manually first. Here are the links:
  * WINDOWS...: git.io/vrVEO
  * LINUX 64 bit: git.io/vrVBD
  
-Windows needs to download the executable manually.
- * LATEST WINDOWS EXE: git.io/vrHW0
- 
------------------------------------
+WINDOWS UPDATER FIX RELEASED! git.io/vrQei
+---------------------------------------------------------------
 
 |AllTheHaxx 0.15.2|
 Important Lua update
@@ -23,4 +21,3 @@ Fixup release to remove the chat bug
 - Chat Tees
 - Cute tweaks <3
 - Updated internal DDNet code to version 10.1.1
-
