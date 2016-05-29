@@ -1,9 +1,19 @@
+|Updater Issues|
+To get any version >= 0.15 you must download the client
+manually first. Here are the links:
+ * WINDOWS...: git.io/vrVEO
+ * LINUX 64 bit: git.io/vrVBD
+ 
+Windows needs to download the executable manually.
+ * LATEST WINDOWS EXE: git.io/vrHW0
+ 
+-----------------------------------
+
+|AllTheHaxx 0.15.2|
+Important Lua update
+
 |AllTheHaxx 0.15.1.2|
 Some more fixes for you :D
-
-IMPORTANT: Windows folks still need to download the
-executable manually, sorry!
-   Windows update: https://git.io/vrHOd
 
 |AllTheHaxx 0.15.1.1|
 Fixup release to remove the chat bug
@@ -13,14 +23,4 @@ Fixup release to remove the chat bug
 - Chat Tees
 - Cute tweaks <3
 - Updated internal DDNet code to version 10.1.1
-
-→→ IMPORTANT
-You need to download it manually again, I'm sorry :(
-Please replace your whole client folder with the new one
-you'll get from the archive.
-
-Here are the shortened links for your convenience:
-
- * WINDOWS...: git.io/vrVEO
- * LINUX 64 bit: git.io/vrVBD
 
