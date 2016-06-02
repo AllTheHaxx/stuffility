@@ -9,7 +9,7 @@
         "repo": "AllTheHaxx",
         "tree": "16e95f021ba6314546d5b4984e09c910b6753e8b",
         "files": ["data/ca-ddnet.pem", "data/fonts/knowyour.ttf", "data/luabase/events.lua", "data/editor/debug_entities.png"],
-        "dest": "./data/",
+        "dest": "./",
       },
       {
         "repo": "stuffility",
