@@ -1,42 +1,57 @@
 
+********************************* 0.16 *********************************
+
+IMPORTANT SCRIPT-BREAKING CHANGES TO THE LUA API!
+
+The was config vars are being accessed has changed.
+The new way of accessing config vars is by their f1 names
+-> Where you used e.g. Config.Playername you must now use Config.player_name
+
+The advantage of this is that now EVERY config var is available
+just the way you use them in the local console!
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
 ******************************* 0.15.2.1 *******************************
 
 IMPORTANT SCRIPT-BREAKING CHANGES TO THE LUA API!
 
-- Graphics.Engine  (has been renamed to)  Engine.Graphics
+- Graphics.Engine  has been renamed to)  Engine.Graphics
 
 
-- There is now Game.Input and Engine.Input, the following is just copied from the code because I am lazy
+- There is now Game.Input and Engine.Input the following is just copied from the code because I am lazy
 
-/* Game.Input */			.beginClass<CControls>("CControls")
-							.addProperty("Direction", &CControls::GetDirection, &CControls::SetDirection)
-							.addProperty("Fire", &CControls::GetFire, &CControls::SetFire)
-							.addProperty("Hook", &CControls::GetHook, &CControls::SetHook)
-							.addProperty("Jump", &CControls::GetJump, &CControls::SetJump)
-							.addProperty("WantedWeapon", &CControls::GetWantedWeapon, &CControls::SetWantedWeapon)
-							.addProperty("TargetX", &CControls::GetTargetX, &CControls::SetTargetX)
-							.addProperty("TargetY", &CControls::GetTargetY, &CControls::SetTargetY)
-							.addProperty("MouseX", &CControls::GetMouseX, &CControls::SetMouseX)
-							.addProperty("MouseY", &CControls::GetMouseY, &CControls::SetMouseY)
-						.endClass()
+ Game.Input:
+							Direction
+							Fire
+							Hook
+							Jump
+							WantedWeapon
+							TargetX
+							TargetY
+							MouseX
+							MouseY
 
-/* Engine.Input */		.beginClass<IInput>("IInput")
-							.addFunction("KeyPress", &IInput::KeyPress)
-							.addFunction("KeyIsPressed", &IInput::KeyIsPressedLua)
-							.addFunction("KeyName", &IInput::KeyNameSTD)
-							.addFunction("KeyID", &IInput::GetKeyID)
-							.addFunction("GetClipboardText", &IInput::GetClipboardTextSTD)
-							.addFunction("SetClipboardText", &IInput::SetClipboardTextSTD)
 
-							.addFunction("MouseModeRelative", &IInput::MouseModeRelative)
-							.addFunction("MouseModeAbsolute", &IInput::MouseModeAbsolute)
-							.addFunction("MouseDoubleClick", &IInput::MouseDoubleClick)
+ Engine.Input:
+							KeyPress(Key[number], CheckCounter[bool]) : bool
+							KeyIsPressed(KeyName[string]) : bool
+							KeyName(Key[number]) : string
+							KeyID(KeyName[string]) : number
+							GetClipboardText() : string
+							SetClipboardText(Text[string])
 
-							.addFunction("SimulateKeyPressDirect", &IInput::SimulateKeyPress)
-							.addFunction("SimulateKeyPress", &IInput::SimulateKeyPressSTD)
-							.addFunction("SimulateKeyReleaseDirect", &IInput::MouseDoubleClick)
-							.addFunction("SimulateKeyRelease", &IInput::SimulateKeyReleaseSTD)
-						.endClass()
+							MouseModeRelative()
+							MouseModeAbsolute()
+							MouseDoubleClick() : int
 
-************************************************************************
+							SimulateKeyPressDirect(Key[number])
+							SimulateKeyPress(KeyName[string])
+							SimulateKeyReleaseDirect(Key[number])
+							SimulateKeyRelease(KeyName[string])
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
