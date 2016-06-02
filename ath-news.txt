@@ -3,21 +3,19 @@ To get any version >= 0.15 you must download the client
 manually first. Here are the links:
  * WINDOWS...: git.io/vrVEO
  * LINUX 64 bit: git.io/vrVBD
- 
-WINDOWS UPDATER FIX RELEASED! git.io/vrQei
+
 ---------------------------------------------------------------
 
-|AllTheHaxx 0.15.2|
-Important Lua update
+|AllTheHaxx 0.16 released!|
 
-|AllTheHaxx 0.15.1.2|
-Some more fixes for you :D
+-Option to not send your hookline to the server (cl_send_hookline 0)
+-Improvements to unlocking the mouse
+-Bundled certain menus together ("Appearance")
+-Added Font Manager
+-Advanced Lua exception handler
+-Finished/Fixed Lua autoload, now usable!!
+-Quicksearch & filter for the Lua files menu
+-fixed windows updater issue
 
-|AllTheHaxx 0.15.1.1|
-Fixup release to remove the chat bug
-
-|AllTheHaxx 0.15.1|
-- Fixed updater and DDNet news
-- Chat Tees
-- Cute tweaks <3
-- Updated internal DDNet code to version 10.1.1
+Important: This release contains script-breaking changes
+If you are a Lua developer, consult the ATH-API-VersionNotes.txt

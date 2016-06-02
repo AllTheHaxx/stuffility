@@ -1,5 +1,31 @@
 [
   {
+    "version": "0.16",
+    "numeric": 1600,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "AllTheHaxx",
+        "tree": "16e95f021ba6314546d5b4984e09c910b6753e8b",
+        "files": ["ca-ddnet.pem", "fonts/knowyour.ttf", "luabase/events.lua", "editor/debug_entities.png"],
+        "dest": "./data/",
+      },
+      {
+        "repo": "stuffility",
+        "tree": "cde2fba6368b9008c048833db4c36ebb8fd5a3a9",
+        "files": ["ATH-README.txt", "ATH-API-VersionNotes.txt"],
+        "dest": "./",
+      },
+      {
+        "repo": "Lua-Scripts",
+        "tree": "3b4c84221ecaec17486076a4b6c1c40cd8cc96c8",
+        "files": ["BloodPatch.lua", "graphicstest.lua", "koglvl.lua"],
+        "dest": "lua/",
+      },
+    ],
+  },
+  {
     "version": "0.15.2",
     "numeric": 1520,
     "remove": false,
