@@ -1,21 +1,13 @@
-|Updater Issues|
-To get any version >= 0.15 you must download the client
-manually first. Here are the links:
- * WINDOWS...: git.io/vrVEO
- * LINUX 64 bit: git.io/vrVBD
-
----------------------------------------------------------------
-
 |AllTheHaxx 0.16 released!|
 
--Option to not send your hookline to the server (cl_send_hookline 0)
+-Option to disable sending your hookline to the server (cl_send_hookline 0)
 -Improvements to unlocking the mouse
--Bundled certain menus together ("Appearance")
+-Bundled certain menus together (see Settings→Appearance)
 -Added Font Manager
 -Advanced Lua exception handler
 -Finished/Fixed Lua autoload, now usable!!
 -Quicksearch & filter for the Lua files menu
--fixed windows updater issue
+-Fixed Windows updater issue
 
 Important: This release contains script-breaking changes
 If you are a Lua developer, consult the ATH-API-VersionNotes.txt
