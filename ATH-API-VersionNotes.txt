@@ -1,57 +1,66 @@
 
-********************************* 0.16 *********************************
-
-IMPORTANT SCRIPT-BREAKING CHANGES TO THE LUA API!
-
-The was config vars are being accessed has changed.
-The new way of accessing config vars is by their f1 names
--> Where you used e.g. Config.Playername you must now use Config.player_name
-
-The advantage of this is that now EVERY config var is available
-just the way you use them in the local console!
-
+********************************* 0.17 *********************************
+|
+| Added access to all tuning variables through Game.Tuning()
+|
+|   Usage example: MyVar = Game.Tuning().hook_length.Value
+|
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 
 
+********************************* 0.16 *********************************
+|
+| IMPORTANT SCRIPT-BREAKING CHANGES TO THE LUA API!
+|
+| The was config vars are being accessed has changed.
+| The new way of accessing config vars is by their f1 names
+| -> Where you used e.g. Config.Playername you must now use Config.player_name
+|
+| The advantage of this is that now EVERY config var is available
+| just the way you use them in the local console!
+|
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
 
 ******************************* 0.15.2.1 *******************************
-
-IMPORTANT SCRIPT-BREAKING CHANGES TO THE LUA API!
-
-- Graphics.Engine  has been renamed to)  Engine.Graphics
-
-
-- There is now Game.Input and Engine.Input the following is just copied from the code because I am lazy
-
- Game.Input:
-							Direction
-							Fire
-							Hook
-							Jump
-							WantedWeapon
-							TargetX
-							TargetY
-							MouseX
-							MouseY
-
-
- Engine.Input:
-							KeyPress(Key[number], CheckCounter[bool]) : bool
-							KeyIsPressed(KeyName[string]) : bool
-							KeyName(Key[number]) : string
-							KeyID(KeyName[string]) : number
-							GetClipboardText() : string
-							SetClipboardText(Text[string])
-
-							MouseModeRelative()
-							MouseModeAbsolute()
-							MouseDoubleClick() : int
-
-							SimulateKeyPressDirect(Key[number])
-							SimulateKeyPress(KeyName[string])
-							SimulateKeyReleaseDirect(Key[number])
-							SimulateKeyRelease(KeyName[string])
-
+|
+| IMPORTANT SCRIPT-BREAKING CHANGES TO THE LUA API!
+|
+| - Graphics.Engine  has been renamed to)  Engine.Graphics
+|
+|
+| - There is now Game.Input and Engine.Input the following is just copied from the code because I am lazy
+|
+| Game.Input:
+|							Direction
+|							Fire
+|							Hook
+|							Jump
+|							WantedWeapon
+|							TargetX
+|							TargetY
+|							MouseX
+|							MouseY
+|
+|
+| Engine.Input:
+|							KeyPress(Key[number], CheckCounter[bool]) : bool
+|							KeyIsPressed(KeyName[string]) : bool
+|							KeyName(Key[number]) : string
+|							KeyID(KeyName[string]) : number
+|							GetClipboardText() : string
+|							SetClipboardText(Text[string])
+|
+|							MouseModeRelative()
+|							MouseModeAbsolute()
+|							MouseDoubleClick() : int
+|
+|							SimulateKeyPressDirect(Key[number])
+|							SimulateKeyPress(KeyName[string])
+|							SimulateKeyReleaseDirect(Key[number])
+|							SimulateKeyRelease(KeyName[string])
+|
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 

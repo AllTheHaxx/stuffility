@@ -1,4 +1,4 @@
-AllTheHaxx «» Latest Version: 0.16 built on 2016-06-02 (June 2nd)
+AllTheHaxx «» Latest Version: 0.17 built on 2016-06-05 (June 5)
 
 -- The Client with the keck --
 
@@ -6,16 +6,7 @@ Developed by
  xush'
  Henritees
  FuroS
- 
- 
- 
- ––––––[ NOTE ON SDL2] ––––––
- 
- if you are on linux, you must install libsdl2,
- for example using "sudo apt-get install libsdl2-2.0"
- 
- –––––––––––––––––––––––––––
- 
+
  
 
 Please read the following carefully:
@@ -45,14 +36,14 @@ free of harmful code. If you like to participate, you are welcome :)
  https://github.com/AllTheHaxx/AllTheHaxx/pulls
 
 Since this is a pre-release testing version, I highly recommend that
-you don't wait for the official builds (which are very unfrequent)
+you don't wait for the official builds (which are rather unfrequent)
 You go much better if you clone the git repository and compile yourself.
 A 'git pull' every two days will make sure that you're always
 running the latest version.
-Anyway, there is an auto-updater since beta13 which should make your
-life easier what updates concernes :)
+Anyway, there is a (working) auto-updater since 0.15 that should make
+your life easier as far as updates are concerned :)
 
-IMPORTANT NOTE TO THE USE OF LUA SCRIPTS:
+IMPORTANT NOTE ON THE USE OF LUA SCRIPTS:
 We are not responsible if you get banned from a server because of
 any annoying lua script you might use!
 We are also not responsible if you use a lua script which was not
@@ -63,3 +54,4 @@ Have fun! :D
 
 - Yours sincerely,
     Henritees ~ xush' ~ FuroS
+
