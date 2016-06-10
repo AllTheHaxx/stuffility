@@ -1,4 +1,4 @@
-AllTheHaxx «» Latest Version: 0.17 built on 2016-06-05 (June 5)
+AllTheHaxx «» Version 0.18 built on 2016-06-10 (June 10)
 
 -- The Client with the keck --
 
