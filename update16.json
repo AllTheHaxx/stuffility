@@ -1,5 +1,31 @@
 [
   {
+    "version": "0.18",
+    "numeric": 1800,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "AllTheHaxx",
+        "tree": "5e543b477c44941dded014f2a147d8d1a2351633",
+        "files": ["data/skins/urls.cfg"],
+        "dest": "./",
+      },
+      {
+        "repo": "stuffility",
+        "tree": "70acb0c217ecadbcada2ec1056fb9f36252bfc51",
+        "files": ["ATH-README.txt"],
+        "dest": "./",
+      },
+      {
+        "repo": "Lua-Scripts",
+        "tree": "d33546b092475174e801a1e2a9d52d5b0f4fd946",
+        "files": ["koglvl.lua", "graphicstest.lua"],
+        "dest": "lua/",
+      },
+    ],
+  },
+  {
     "version": "0.17",
     "numeric": 1700,
     "remove": false,
