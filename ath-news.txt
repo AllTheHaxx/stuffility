@@ -1,13 +1,20 @@
-|AllTheHaxx 0.16 released!|
+|AllTheHaxx 0.18 released!|
 
--Option to disable sending your hookline to the server (cl_send_hookline 0)
--Improvements to unlocking the mouse
--Bundled certain menus together (see Settings→Appearance)
--Added Font Manager
--Advanced Lua exception handler
--Finished/Fixed Lua autoload, now usable!!
--Quicksearch & filter for the Lua files menu
--Fixed Windows updater issue
+- Listboxes only accept keyevents when on mouse focus
+- added our own skin databaseadded our own skin database
+- nice dark 'inactive'-indication overlay when mouse is unlocked
+- fixed a few warnings with cl compiler
+- performance optimized default graphics settings
+- Finally fixed the file fetcher on windows (means... Updater works again!!)
+- Fixed skindownloader crashbug
+- Fixed autoreconnect timer displaying twice as much
+- Use old mouse mode by default + better explanation in settings
+- Added ninja duration indicator
+- fixed nameplates + cleaned-up the code
+- Tickspeed measurement and display in debug ui
+- Show some lua files counts in the list
+- fixed lua listbox scrolling with active filter
 
-Important: This release contains script-breaking changes
-If you are a Lua developer, consult the ATH-API-VersionNotes.txt
+Important info for Lua developers:
+For any script-breaking changes, consult the ATH-API-VersionNotes.txt
+
