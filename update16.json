@@ -2,7 +2,7 @@
   {
     "version": "0.18",
     "numeric": 1800,
-    "remove": false,
+    "remove":  ["data/ca-ddnet.pem"],
     "download":
     [
       {
