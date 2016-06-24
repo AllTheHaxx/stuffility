@@ -1,5 +1,25 @@
 [
   {
+    "version": "0.19",
+    "numeric": 1900,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "AllTheHaxx",
+        "tree": "5e543b477c44941dded014f2a147d8d1a2351633",
+        "files": ["data/luabase/events.lua"],
+        "dest": "./",
+      },
+      {
+        "repo": "stuffility",
+        "tree": "0a9a1f1d4bc9c23ee117794269300775176e30d5",
+        "files": ["ATH-README.txt"],
+        "dest": "./",
+      },
+    ],
+  },
+  {
     "version": "0.18",
     "numeric": 1800,
     "remove":  ["data/ca-ddnet.pem"],
