@@ -1,26 +1,16 @@
-|AllTheHaxx 0.18 released!|
-
 |Warning about people selling lua scripts|
 If anybody wants to sell lua scripts to you, DON'T give them your money!
 Make sure to contact us first, since there are betrayers around who want you to
 pay them for scripts that are freely available from us. Make sure not to be fooled
 by such scammers and don't hesitate to talk to us (Join the IRC, see below)!
 
-- Listboxes only accept keyevents when on mouse focus
-- added our own skin databaseadded our own skin database
-- nice dark 'inactive'-indication overlay when mouse is unlocked
-- fixed a few warnings with cl compiler
-- performance optimized default graphics settings
-- Finally fixed the file fetcher on windows (means... Updater works again!!)
-- Fixed skindownloader crashbug
-- Fixed autoreconnect timer displaying twice as much
-- Use old mouse mode by default + better explanation in settings
-- Added ninja duration indicator
-- fixed nameplates + cleaned-up the code
-- Tickspeed measurement and display in debug ui
-- Show some lua files counts in the list
-- fixed lua listbox scrolling with active filter
 
-Important info for Lua developers:
-For any script-breaking changes, consult the ATH-API-VersionNotes.txt
+|AllTheHaxx 0.19 released!|
 
+- emote menu and scoreboard can only be opened when online
+- fixed chat binds
+- fixed lua event returns
+- improved the hotbar menus
+- added a button to clear skincache
+- added an option to disable the menu background and rotation
+- some bug fixes
