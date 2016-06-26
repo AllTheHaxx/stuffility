@@ -1,5 +1,11 @@
 |AllTheHaxx 0.18 released!|
 
+|Warning about people selling lua scripts|
+If anybody wants to sell lua scripts to you, DON'T give them your money!
+Make sure to contact us first, since there are betrayers around who want you to
+pay them for scripts that are freely available from us. Make sure not to be fooled
+by such scammers and don't hesitate to talk to us (Join the IRC, see below)!
+
 - Listboxes only accept keyevents when on mouse focus
 - added our own skin databaseadded our own skin database
 - nice dark 'inactive'-indication overlay when mouse is unlocked
