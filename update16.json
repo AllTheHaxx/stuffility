@@ -1,5 +1,25 @@
 [
   {
+    "version": "0.20",
+    "numeric": 2000,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "stuffility",
+        "tree": "85cfd54a7af18c16294ca49afa84d978d3746018",
+        "files": ["ATH-README.txt", "ATH-API-VersionNotes.txt"],
+        "dest": "./",
+      },
+      {
+        "repo": "Lua-Scripts",
+        "tree": "52281484c5facc785203cf326b4f48eb5d200abd",
+        "files": ["graphicstest.lua"],
+        "dest": "lua/",
+      },
+    ],
+  },
+  {
     "version": "0.19",
     "numeric": 1900,
     "remove": false,
