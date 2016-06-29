@@ -1,4 +1,18 @@
 
+********************************* 0.20 *********************************
+|
+| IMPORTANT SCRIPT-BREAKING CHANGES TO THE LUA API!
+| ... Creating GUI Items such like buttons just got a lot easier ;)
+|
+| (-) removed _ui.* namespace
+| (-) removed _graphics.DrawLine function; use Engine.Graphics:LinesDraw
+| (+) added Game.Menus:DoButton_Menu
+| (+) added type `ButtonContainer`
+|
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
 ********************************* 0.17 *********************************
 |
 | Added access to all tuning variables through Game.Tuning()

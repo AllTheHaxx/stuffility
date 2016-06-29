@@ -1,4 +1,4 @@
-AllTheHaxx «» Version 0.19 built on 2016-06-24 (June 24)
+AllTheHaxx «» Version 0.20 built on 2016-06-29 (June 29)
 
 -- The Client with the keck --
 
@@ -47,7 +47,7 @@ you don't wait for the official builds (which are rather unfrequent)
 You go much better if you clone the git repository and compile yourself.
 A 'git pull' every two days will make sure that you're always
 running the latest version.
-Anyway, there is a (working) auto-updater since 0.15 that should make
+Anyway, there is a (working) auto-updater since 0.18 that should make
 your life easier as far as updates are concerned :)
 
 IMPORTANT NOTE ON THE USE OF LUA SCRIPTS:
