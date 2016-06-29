@@ -5,12 +5,21 @@ pay them for scripts that are freely available from us. Make sure not to be fool
 by such scammers and don't hesitate to talk to us (Join the IRC, see below)!
 
 
-|AllTheHaxx 0.19 released!|
+|AllTheHaxx 0.20 released!|
 
-- emote menu and scoreboard can only be opened when online
-- fixed chat binds
-- fixed lua event returns
-- improved the hotbar menus
-- added a button to clear skincache
-- added an option to disable the menu background and rotation
-- some bug fixes
+This version finally brings an own executable's icon along ;)
+- Horizontal scrolling in the IRC
+- Use clock_gettime(CLOCK_MONOTONIC) instead of gettimeofday() + time caching
+- Added CButtonContainer, CPointerContainer and stuff to the Lua API
+- Debug system implementation to generate crash reports
+- Fixed chat avatar bug with non-player messages
+- Option to set mousecursor rotation
+- Some UI improvements
+- Added `Game.Chat:AddLine(ID, Team, Msg)` to the Lua API
+- Print Lua errors to ingame console aswell
+- Curl Wrapper for Lua (for now includes only parameterized HTTP POST)
+- Code cleanups
+
+Important info for Lua developers:
+This release contains script-breaking changes, please consult the ATH-API-VersionNotes.txt
+
