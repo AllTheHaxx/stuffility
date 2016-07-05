@@ -5,21 +5,17 @@ pay them for scripts that are freely available from us. Make sure not to be fool
 by such scammers and don't hesitate to talk to us (Join the IRC, see below)!
 
 
-|AllTheHaxx 0.20 released!|
+|AllTheHaxx 0.21 released!|
 
-This version finally brings an own executable's icon along ;)
-- Horizontal scrolling in the IRC
-- Use clock_gettime(CLOCK_MONOTONIC) instead of gettimeofday() + time caching
-- Added CButtonContainer, CPointerContainer and stuff to the Lua API
-- Debug system implementation to generate crash reports
-- Fixed chat avatar bug with non-player messages
-- Option to set mousecursor rotation
-- Some UI improvements
-- Added `Game.Chat:AddLine(ID, Team, Msg)` to the Lua API
-- Print Lua errors to ingame console aswell
-- Curl Wrapper for Lua (for now includes only parameterized HTTP POST)
+This version fixes the previous 0.20 which has never been published
+due to being totally bugged. Additionally, there are some cool new features ;)
+- reworked and fixed internal ui code (purpose see 0.20 → lua section)
+- hugely reworked identity system and added some new features to it (flag selection, title, ...)
+- replaced the "Player" and "Tee" settings pages entirely with identity (they still can be accessed though)
+- added lasertrail settings, fixed particles (see f1 gfx_lasertrail)
+- Lua: OnConsoleCommand event
 - Code cleanups
 
 Important info for Lua developers:
-This release contains script-breaking changes, please consult the ATH-API-VersionNotes.txt
+0.20 contained script-breaking changes, please consult the ATH-API-VersionNotes.txt
 

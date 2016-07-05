@@ -1,7 +1,27 @@
 [
   {
+    "version": "0.21",
+    "numeric": 2100,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "stuffility",
+        "tree": "d4d662a5caf6b555e9268d8b884d038c2c16730d",
+        "files": ["ATH-README.txt"],
+        "dest": "./",
+      },
+      {
+        "repo": "Lua-Scripts",
+        "tree": "93aecbbaac7f72acb2d4287ddf87aefb88a30f98",
+        "files": ["koglvl.lua"],
+        "dest": "lua/",
+      },
+    ],
+  },
+  {
     "version": "0.20",
-    "numeric": -1,
+    "numeric": 2000,
     "remove": false,
     "download":
     [
