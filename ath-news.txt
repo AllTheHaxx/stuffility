@@ -2,20 +2,27 @@
 If anybody wants to sell lua scripts to you, DON'T give them your money!
 Make sure to contact us first, since there are betrayers around who want you to
 pay them for scripts that are freely available from us. Make sure not to be fooled
-by such scammers and don't hesitate to talk to us (Join the IRC, see below)!
+by such scammers and don't hesitate to talk to us (Join the IRC)!
 
+|AllTheHaxx 0.22 released!|
 
-|AllTheHaxx 0.21 released!|
+WARNING: Version 0.22 introduces a new support periode. That means we won't be caring
+about anybody using a version that was released before July 15, so you are highly
+recommended to update as soon as possible. I promise it will not break too much ;)
 
-This version fixes the previous 0.20 which has never been published
-due to being totally bugged. Additionally, there are some cool new features ;)
-- reworked and fixed internal ui code (purpose see 0.20 → lua section)
-- hugely reworked identity system and added some new features to it (flag selection, title, ...)
-- replaced the "Player" and "Tee" settings pages entirely with identity (they still can be accessed though)
-- added lasertrail settings, fixed particles (see f1 gfx_lasertrail)
-- Lua: OnConsoleCommand event
-- Code cleanups
+MANUAL DOWNLOAD REQUIRED !!!
+→ Windows: git.io/vKzvx
+→ Linux64: git.io/vKzfU
 
-Important info for Lua developers:
-0.20 contained script-breaking changes, please consult the ATH-API-VersionNotes.txt
+Changelog
+----------------------------------
+- fixed the unbelievable huge memory usage
+- added more gameskins, emoticons, cursors and particles
+- allow multiple map databases for http-map-download (aka webdl)
+- Quick-fix for to prevent crash when playing damaged demos
+- paste text at cursor pos and added CTRL-X to cut
+- colorized team-balance warning to indicate which team has too many players
+- allow zoom on any modded gametypes
+- limit maximum concurrent skin download tasks to 4
+- small memory management optimizations
 
