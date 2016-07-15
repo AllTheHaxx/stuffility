@@ -1,5 +1,19 @@
 [
   {
+    "version": "0.22",
+    "numeric": 2200,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "stuffility",
+        "tree": "f08d710fd0e4d9aa7d9a64e0e36f2cf14b793ced",
+        "files": ["++++ UpdateNote ++++.txt"],
+        "dest": "./",
+      },
+    ],
+  },
+  {
     "version": "0.21",
     "numeric": 2100,
     "remove": false,
