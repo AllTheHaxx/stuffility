@@ -1,19 +1,12 @@
-IMPORTANT NOTES ON THE UPDATE TO >= 0.14.4
+IMPORTANT NOTES ON THE UPDATE TO >= 0.22
 ------------------------------------------
 
-To get AllTheHaxx updated to any version after 14.0.1, you need to download
-the pack 0.14.3 manually and then replace the executable manually with the
-one of 0.14.4; after that, everything should work automatically again.
+To get AllTheHaxx updated to any version as of 0.22, you need to download
+the pack 0.22 manually from the website.
+For your concenience, I shortened the links here:
 
-To keep your pain low, I got the direct download links for you:
+*** WINDOWS: git.io/vKzvx
+*** LINUX64: git.io/vKzfU
 
- 1st step) PACK OF 0.14.3
-  * Windows: https://github.com/AllTheHaxx/AllTheHaxx/releases/download/0.14.3/AllTheHaxx-20160507-win.zip
-  * Linux:   https://github.com/AllTheHaxx/AllTheHaxx/releases/download/0.14.3/AllTheHaxx-20160507-linux-x86_64.tar.xz
-
- 2nd step) EXECUTABLE OF 0.14.4
-  * Windows: https://github.com/AllTheHaxx/AllTheHaxx/releases/download/0.14.4/AllTheHaxx-win-x86.exe
-  * Linux:   https://github.com/AllTheHaxx/AllTheHaxx/releases/download/0.14.4/AllTheHaxx-linux-x86_64
-  
 I'm sorry for the inconvenciences, there has been a lot of internal restructuing going on.
-If you got version 0.14.4 it will be easier again, the autoupdater should do it's job now :)
+If you got version 0.22 it will be easier again, promised! :)
