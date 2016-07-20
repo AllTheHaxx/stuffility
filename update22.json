@@ -3,7 +3,15 @@
     "version": "0.22.1f",
     "numeric": 2211,
     "remove": false,
-    "download": false,
+    "download":
+    [
+      {
+        "repo": "stuffility",
+        "tree": "a0cf0a670573a324ac9944b2a8081de46972c912",
+        "files": ["ATH-README.txt"],
+        "dest": "./",
+      },
+    ]
   },
   {
     "version": "0.22.1",
