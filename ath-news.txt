@@ -4,6 +4,7 @@ Make sure to contact us first, since there are betrayers around who want you to
 pay them for scripts that are freely available from us. Make sure not to be fooled
 by such scammers and don't hesitate to talk to us (Join the IRC)!
 
+
 |AllTheHaxx 0.22.1 released!|
 This release brings a couple of improvements for the skindownloader (less crashes!)
 and introduces a scrollbar to this news page (so make sure to get the update if
