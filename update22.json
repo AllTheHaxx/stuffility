@@ -8,13 +8,13 @@
   {
     "version": "0.22.1",
     "numeric": 2210,
-    "remove": false,
+    "remove": ["++++ UpdateNote ++++.txt"],
     "download": false,
   },
   {
     "version": "0.22",
     "numeric": 2200,
-    "remove": false,
+    "remove": ["++++ UpdateNote ++++.txt"],
     "download": false,
   },
 ]
