@@ -6,6 +6,7 @@ by such scammers and don't hesitate to talk to us (Join the IRC)!
 
 
 |AllTheHaxx 0.22.1 released!|
+===== WINDOWS USERS TURN OF THE SKINFETCHER TO PREVENT CRASHES =====
 This release brings a couple of improvements for the skindownloader (less crashes!)
 and introduces a scrollbar to this news page (so make sure to get the update if
 you want to read the rest of this page :D)
