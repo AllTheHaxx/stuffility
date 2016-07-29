@@ -5,6 +5,17 @@ pay them for scripts that are freely available from us. Make sure not to be fool
 by such scammers and don't hesitate to talk to us (Join the IRC)!
 
 
+|AllTheHaxx 0.22.2 released! [29.07.16]|
+=== YOU ARE HIGHLY RECOMMENDED TO UPDATE TO THIS VERSION FOR VULNERABILITY FIXES ===
+- updated DDNet code to 10.2.1
+- remember the selected font
+- fixed irc message fmt-injection
+- disabled skindownloader on windows until it's fixed → ++ no more crashes ++
+- option to disable chatbubble sending `cl_chatbubble`
+- debug player directions `dbg_directions` -- force hookline for everyone
+- improved identity handling for dummy + general optimizations
+- news-page improvements
+
 |AllTheHaxx 0.22.1 released!|
 ===== WINDOWS USERS TURN OF THE SKINFETCHER TO PREVENT CRASHES =====
 This release brings a couple of improvements for the skindownloader (less crashes!)
