@@ -6,7 +6,8 @@ by such scammers and don't hesitate to talk to us (Join the IRC)!
 
 
 |AllTheHaxx 0.22.2 released! [29.07.16]|
-=== YOU ARE HIGHLY RECOMMENDED TO UPDATE TO THIS VERSION FOR VULNERABILITY FIXES ===
+=== YOU ARE HIGHLY RECOMMENDED TO UPDATE
+=== TO THIS VERSION FOR VULNERABILITY FIXES
 - updated DDNet code to 10.2.1
 - remember the selected font
 - fixed irc message fmt-injection
