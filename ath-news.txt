@@ -6,9 +6,20 @@ by such scammers and don't hesitate to talk to us (Join the IRC)!
 I can give you almost everything for free that you could buy!
 
 
-|AllTheHaxx 0.22.2 released! [29.07.16]|
+|AllTheHaxx 0.23 released! [04.08.16]|
 === YOU ARE HIGHLY RECOMMENDED TO UPDATE
 === TO THIS VERSION FOR VULNERABILITY FIXES
+- save lua autoloads with `config_save`
+- highlight chat messages in irc aswell
+- allow for loading of certified compiled lua scripts
+- finally fixed the skindownloader, now works like a charm (also on windows!)
+- removed some irc vulnerabilities and overall bugfixes
+- select console messages to copy the
+- fixed editbox pasting
+- fixed zoom
+- fixed identites being rendered out of view
+
+|AllTheHaxx 0.22.2 released! [29.07.16]|
 - updated DDNet code to 10.2.1
 - remember the selected font
 - fixed irc message fmt-injection
@@ -18,31 +29,11 @@ I can give you almost everything for free that you could buy!
 - improved identity handling for dummy + general optimizations
 - news-page improvements
 
-|AllTheHaxx 0.22.1 released!|
-===== WINDOWS USERS TURN OF THE SKINFETCHER TO PREVENT CRASHES =====
-This release brings a couple of improvements for the skindownloader (less crashes!)
-and introduces a scrollbar to this news page (so make sure to get the update if
-you want to read the rest of this page :D)
-
-|AllTheHaxx 0.22 released!|
-
-WARNING: Version 0.22 introduces a new support periode. That means we won't be caring
+|++ AllTheHaxx 0.22+ requires manual download!|
+WARNING: Version 0.22 introduces a new support periode. That means we won't care
 about anybody using a version that was released before July 15, so you are highly
 recommended to update as soon as possible. I promise it will not break too much ;)
 
 MANUAL DOWNLOAD REQUIRED !!!
 → Windows: git.io/vKzvx
 → Linux64: git.io/vKzfU
-
-Changelog
-----------------------------------
-- fixed the unbelievable huge memory usage
-- added more gameskins, emoticons, cursors and particles
-- allow multiple map databases for http-map-download (aka webdl)
-- Quick-fix for to prevent crash when playing damaged demos
-- paste text at cursor pos and added CTRL-X to cut
-- colorized team-balance warning to indicate which team has too many players
-- allow zoom on any modded gametypes
-- limit maximum concurrent skin download tasks to 4
-- small memory management optimizations
-

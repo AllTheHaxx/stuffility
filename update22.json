@@ -1,5 +1,25 @@
 [
   {
+    "version": "0.23",
+    "numeric": 2300,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "AllTheHaxx",
+        "tree": "035fb351c108efb473d7f56826ff592be1a8fa90",
+        "files": ["data/editor/entities_clear/ddrace.png"],
+        "dest": "./",
+      },
+      {
+        "repo": "stuffility",
+        "tree": "de772c0533a49a068ce004eff5fcd760b0c9fa13",
+        "files": ["ATH-README.txt"],
+        "dest": "./",
+      },
+    ]
+  },
+  {
     "version": "0.22.2",
     "numeric": 2220,
     "remove": false,
