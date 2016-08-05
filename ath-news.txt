@@ -6,6 +6,19 @@ by such scammers and don't hesitate to talk to us (Join the IRC)!
 I can give you almost everything for free that you could buy!
 
 
+|AllTheHaxx 0.23.1 released! [05.08.16]|
+Another bunch of fixes! (0.23 update to this!!)
+- don't fetch skins with invalid names on windows
+- fixed zoom and /spec
+- skindownloader fixes for windows
+- make sure to always set a default skin if vanilla-skins-only is active
+- reworked console code (by Stitch626)
+    - Redone scrolling
+    - Performance optimizations
+    - Search: Press return to skip to next found item
+    - Fixed URL clicking with native cursor
+- don't render command completion when console search is active
+
 |AllTheHaxx 0.23 released! [04.08.16]|
 === YOU ARE HIGHLY RECOMMENDED TO UPDATE
 === TO THIS VERSION FOR VULNERABILITY FIXES

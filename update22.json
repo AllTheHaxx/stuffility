@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.23.1",
+    "numeric": 2310,
+    "remove": false,
+    "download": false,
+  },
+  {
     "version": "0.23",
     "numeric": 2300,
     "remove": false,
