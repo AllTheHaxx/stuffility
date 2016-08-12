@@ -1,9 +1,87 @@
 [
   {
+    "version": "0.24",
+    "numeric": 2400,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "Lua-Scripts",
+        "tree": "b2ba88cf71d131b973141683ebf4a555ee7ddeba",
+        "files":
+        [
+          ".library/luac.lua",
+          "AllTheBots/AFKBOT.clc",
+          "AllTheBots/afkChatBot.clc",
+          "AllTheBots/aimbot.clc",
+          "AllTheBots/Aimbot.clc",
+          "AllTheBots/autofire v2.clc",
+          "AllTheBots/AvoidFreeze.clc",
+          "AllTheBots/ChatJump.clc",
+          "AllTheBots/CloneEmotes.clc",
+          "AllTheBots/DisconnectBot.clc",
+          "AllTheBots/EmoteBOT.clc",
+          "AllTheBots/EmoteSpambot.clc",
+          "AllTheBots/FakeChat.clc",
+          "AllTheBots/FakeHook.clc",
+          "AllTheBots/flybot.clc",
+          "AllTheBots/flybot v3.clc",
+          "AllTheBots/GreetBot v2.clc",
+          "AllTheBots/HelpBot.clc",
+          "AllTheBots/HookBug.clc",
+          "AllTheBots/HookClosest.clc",
+          "AllTheBots/HowLong.clc",
+          "AllTheBots/LoLBot.clc",
+          "AllTheBots/M2A.clc",
+          "AllTheBots/RandomKick.clc",
+          "AllTheBots/RepeatChat.clc",
+          "AllTheBots/RepeatChat++.clc",
+          "AllTheBots/SpamBot.clc",
+          "AllTheBots/TeamBot.clc",
+
+          "AllTheBots/.cert/AFKBOT.cert",
+          "AllTheBots/.cert/afkChatBot.cert",
+          "AllTheBots/.cert/aimbot.cert",
+          "AllTheBots/.cert/Aimbot.cert",
+          "AllTheBots/.cert/autofire v2.cert",
+          "AllTheBots/.cert/AvoidFreeze.cert",
+          "AllTheBots/.cert/ChatJump.cert",
+          "AllTheBots/.cert/CloneEmotes.cert",
+          "AllTheBots/.cert/DisconnectBot.cert",
+          "AllTheBots/.cert/EmoteBOT.cert",
+          "AllTheBots/.cert/EmoteSpambot.cert",
+          "AllTheBots/.cert/FakeChat.cert",
+          "AllTheBots/.cert/FakeHook.cert",
+          "AllTheBots/.cert/flybot.cert",
+          "AllTheBots/.cert/flybot v3.cert",
+          "AllTheBots/.cert/GreetBot v2.cert",
+          "AllTheBots/.cert/HelpBot.cert",
+          "AllTheBots/.cert/HookBug.cert",
+          "AllTheBots/.cert/HookClosest.cert",
+          "AllTheBots/.cert/HowLong.cert",
+          "AllTheBots/.cert/LoLBot.cert",
+          "AllTheBots/.cert/M2A.cert",
+          "AllTheBots/.cert/RandomKick.cert",
+          "AllTheBots/.cert/RepeatChat.cert",
+          "AllTheBots/.cert/RepeatChat++.cert",
+          "AllTheBots/.cert/SpamBot.cert",
+          "AllTheBots/.cert/TeamBot.cert"
+        ],
+        "dest": "lua/"
+      },
+      {
+        "repo": "stuffility",
+        "tree": "f46d2a5269b21260c41d90240033b2812a02fafa",
+        "files": ["ATH-README.txt", "ATH-API-VersionNotes.txt"],
+        "dest": "./"
+      }
+    ]
+  },
+  {
     "version": "0.23.1",
     "numeric": 2310,
     "remove": false,
-    "download": false,
+    "download": false
   },
   {
     "version": "0.23",
@@ -15,21 +93,21 @@
         "repo": "AllTheHaxx",
         "tree": "035fb351c108efb473d7f56826ff592be1a8fa90",
         "files": ["data/editor/entities_clear/ddrace.png"],
-        "dest": "./",
+        "dest": "./"
       },
       {
         "repo": "stuffility",
         "tree": "de772c0533a49a068ce004eff5fcd760b0c9fa13",
         "files": ["ATH-README.txt"],
-        "dest": "./",
-      },
+        "dest": "./"
+      }
     ]
   },
   {
     "version": "0.22.2",
     "numeric": 2220,
     "remove": false,
-    "download": false,
+    "download": false
   },
   {
     "version": "0.22.1f",
@@ -41,21 +119,21 @@
         "repo": "stuffility",
         "tree": "a0cf0a670573a324ac9944b2a8081de46972c912",
         "files": ["ATH-README.txt"],
-        "dest": "./",
-      },
+        "dest": "./"
+      }
     ]
   },
   {
     "version": "0.22.1",
     "numeric": 2210,
     "remove": ["++++ UpdateNote ++++.txt"],
-    "download": false,
+    "download": false
   },
   {
     "version": "0.22",
     "numeric": 2200,
     "remove": ["++++ UpdateNote ++++.txt"],
-    "download": false,
-  },
+    "download": false
+  }
 ]
 
