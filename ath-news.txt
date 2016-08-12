@@ -6,41 +6,21 @@ by such scammers and don't hesitate to talk to us (Join the IRC)!
 I can give you almost everything for free that you could buy!
 
 
-|AllTheHaxx 0.23.1 released! [05.08.16]|
-Another bunch of fixes! (0.23 update to this!!)
-- don't fetch skins with invalid names on windows
-- fixed zoom and /spec
-- skindownloader fixes for windows
-- make sure to always set a default skin if vanilla-skins-only is active
-- reworked console code (by Stitch626)
-    - Redone scrolling
-    - Performance optimizations
-    - Search: Press return to skip to next found item
-    - Fixed URL clicking with native cursor
-- don't render command completion when console search is active
-
-|AllTheHaxx 0.23 released! [04.08.16]|
-=== YOU ARE HIGHLY RECOMMENDED TO UPDATE
-=== TO THIS VERSION FOR VULNERABILITY FIXES
-- save lua autoloads with `config_save`
-- highlight chat messages in irc aswell
-- allow for loading of certified compiled lua scripts
-- finally fixed the skindownloader, now works like a charm (also on windows!)
-- removed some irc vulnerabilities and overall bugfixes
-- select console messages to copy the
-- fixed editbox pasting
-- fixed zoom
-- fixed identites being rendered out of view
-
-|AllTheHaxx 0.22.2 released! [29.07.16]|
-- updated DDNet code to 10.2.1
-- remember the selected font
-- fixed irc message fmt-injection
-- disabled skindownloader on windows until it's fixed → ++ no more crashes ++
-- option to disable chatbubble sending `cl_chatbubble`
-- debug player directions `dbg_directions` -- force hookline for everyone
-- improved identity handling for dummy + general optimizations
-- news-page improvements
+|AllTheHaxx 0.24 released! [12.08.16]|
+=== YOU ARE HIGHLY RECOMMENDED TO UPDATE TO THIS VERSION
+=== FOR VULNERABILITY FIXES AND A BUNCH OF NEW LUAS ;)
+- FIXED THE SKINFETCHER! NOW *REALLY*!
+- Added a bunch of luas!
+- added an option to disable/customize the smooth emote wheel `cl_smooth_emote_wheel`
+- added a variable `cl_smart_zoom_val` to customize the zooming intensity
+- added `cl_chat` to disable chat completely/partly
+- option to show the ATH symbol in scoreboard `cl_scoreboard_show_ath`
+- fixed console command completion
+- reworked IRC hugely!
+- hide irc on connection state change
+- a few gui fixes / code improvements
+- add the smart zooming onto the user's set zooming value
+- much more.
 
 |++ AllTheHaxx 0.22+ requires manual download!|
 WARNING: Version 0.22 introduces a new support periode. That means we won't care
