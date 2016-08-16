@@ -1,10 +1,18 @@
-|Warning about people selling lua scripts|
+﻿|Warning about people selling lua scripts|
 If anybody wants to sell lua scripts to you, DON'T give them your money!
 Make sure to contact us first, since there are betrayers around who want you to
 pay them for scripts that are freely available from us. Make sure not to be fooled
 by such scammers and don't hesitate to talk to us (Join the IRC)!
 I can give you almost everything for free that you could buy!
 
+
+|AllTheHaxx 0.25 released! [16.08.16]|
+** ALL PEOPLE WHO HAD PROBLEMS GETTING THE LUAS THROUGH THE UPDATER
+** CAN DOWNLOAD A NEW COMPLETE CLIENT PACK FROM THE WEBSITE!
+- major menus rework, added manual pages
+- less console spam from lua
+- automatically detect default resolution
+- some security stuff
 
 |AllTheHaxx 0.24 released! [12.08.16]|
 === YOU ARE HIGHLY RECOMMENDED TO UPDATE TO THIS VERSION
