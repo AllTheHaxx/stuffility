@@ -1,5 +1,19 @@
 [
   {
+    "version": "0.25",
+    "numeric": 2500,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "stuffility",
+        "tree": "f91a3585baa8af093b99ed90f2ee234441f168b6",
+        "files": ["ATH-README.txt"],
+        "dest": "./"
+      }
+    ]
+  },
+  {
     "version": "0.24",
     "numeric": 2400,
     "remove": false,
