@@ -1,5 +1,25 @@
 [
   {
+    "version": "0.25.1",
+    "numeric": 2510,
+    "remove": ["lua/BloodPatch.lua"],
+    "download":
+    [
+      {
+        "repo": "AllTheHaxx",
+        "tree": "21eb6f790ff329444df5e26a9d4edf7c99d9f7c3",
+        "files": ["data/languages/russian.txt"],
+        "dest": "./"
+      },
+      {
+        "repo": "Lua-Scripts",
+        "tree": "879de91a197680919e9efece444e06e4c9bda3af",
+        "files": ["BloodPatch/BloodPatch.lua", "BloodPatch/data/blood.png", "BloodPatch/data/blood1.png", "BloodPatch/data/blood2.png", "BloodPatch/data/blood3.png", "BloodPatch/data/blood4.png"],
+        "dest": "lua/"
+      }
+    ]
+  },
+  {
     "version": "0.25",
     "numeric": 2500,
     "remove": false,
