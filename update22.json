@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.26",
+    "numeric": 2600,
+    "remove": false,
+    "download": false
+  },
+  {
     "version": "0.25.1",
     "numeric": 2510,
     "remove": ["lua/BloodPatch.lua"],

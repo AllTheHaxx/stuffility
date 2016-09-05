@@ -1,15 +1,51 @@
 
-********************************* 0.24 *********************************
+********************************* 0.26 *********************************
 |
-| IMPORTANT SCRIPT-BREAKING CHANGES TO THE LUA API!
-| ... Simplyfied some stuff
+| >> GENERAL CHANGES <<
+| - Files with the ending ".conf.lua" won't be listed ingame
 |
-| (*) KillScript(g_ScriptUID) -> KillScript()  [with no arguments]
-| (-) Import(lua/<file_path>) should work now
-| (+) added support for bytecode files (aka compiled scripts)
-| (*) some fixes and improvements
+| >> NEW EVENTS ADDED <<
+| - OnGameStart(), called when the round starts
+| - OnGameOver(), called when the round has ended
+| - OnFlagGrab(ClientID, Team), called when someone grabs the flag
+| - OnPredHammerHit(ClientID), called when someone hammers you (EXPERIMENTAL!)
+| - OnScriptRenderInfo(<UIRect>MainView), can be used to render stuff in the new script info section
 |
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+| >> IMPORTANT SCRIPT-BREAKING CHANGES <<
+| - removed dofile() and require(); use Import() instead
+| - new definition of Import:  <bool>success, <string>fullpath Import(<string>File)
+|   EXPLANATION: the new Import will first search for the wanted file in the
+|                directory that the running script is in; then it searches
+|                through the libraries; then it looks in the lua base directory
+|          NOTE: If no file ending is given, Import will assume '.lua'
+|       WARNING: You can only import files with the ending .lua and .clc
+|          NOTE: All permission flags of the Import()'ed script will be applied.
+|
+| - definition of OnScriptRenderSettings changed; it is being passed 1 UIRect now,
+|   that represents the previous 4 floats x,y,w,h
+|
+|
+| >> LIBRARY CHANGES <<
+| - If you used library functions in your scripts, you must update all of them.
+|   Only the names changed, often there is only a new '_' before the name.
+|   Have a look at the lua codes in lua/.library/ for more info.
+|
+|
+| >> USEFUL STUFF <<
+| - How to give your script a config:
+|                                         Import("config")
+|                                        _ConfigSet("MyConfigVal", "defaultValue")
+|                                        _ConfigSet("SomeNumber", 1337)
+|                                        _ConfigLoad()
+|                                        _ConfigSave()
+|      All this code must be at the very top (global scope), right below
+|      your g_ScriptTitle = "blabla" stuff
+|
+|      Now you can receive the value of these variables like so: (whereever you need them)
+|                                       MyVar = _ConfigGet("MyConfigVal")
+|   
+|
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 
 
@@ -62,33 +98,33 @@
 | - There is now Game.Input and Engine.Input the following is just copied from the code because I am lazy
 |
 | Game.Input:
-|							Direction
-|							Fire
-|							Hook
-|							Jump
-|							WantedWeapon
-|							TargetX
-|							TargetY
-|							MouseX
-|							MouseY
+|                            Direction
+|                            Fire
+|                            Hook
+|                            Jump
+|                            WantedWeapon
+|                            TargetX
+|                            TargetY
+|                            MouseX
+|                            MouseY
 |
 |
 | Engine.Input:
-|							KeyPress(Key[number], CheckCounter[bool]) : bool
-|							KeyIsPressed(KeyName[string]) : bool
-|							KeyName(Key[number]) : string
-|							KeyID(KeyName[string]) : number
-|							GetClipboardText() : string
-|							SetClipboardText(Text[string])
+|                            KeyPress(Key[number], CheckCounter[bool]) : bool
+|                            KeyIsPressed(KeyName[string]) : bool
+|                            KeyName(Key[number]) : string
+|                            KeyID(KeyName[string]) : number
+|                            GetClipboardText() : string
+|                            SetClipboardText(Text[string])
 |
-|							MouseModeRelative()
-|							MouseModeAbsolute()
-|							MouseDoubleClick() : int
+|                            MouseModeRelative()
+|                            MouseModeAbsolute()
+|                            MouseDoubleClick() : int
 |
-|							SimulateKeyPressDirect(Key[number])
-|							SimulateKeyPress(KeyName[string])
-|							SimulateKeyReleaseDirect(Key[number])
-|							SimulateKeyRelease(KeyName[string])
+|                            SimulateKeyPressDirect(Key[number])
+|                            SimulateKeyPress(KeyName[string])
+|                            SimulateKeyReleaseDirect(Key[number])
+|                            SimulateKeyRelease(KeyName[string])
 |
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 

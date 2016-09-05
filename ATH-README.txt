@@ -1,10 +1,10 @@
-﻿AllTheHaxx «» Version 0.25 built on 2016-08-16 (August 16)
+AllTheHaxx «» Version 0.26 built on 2016-09-05 (September 5)
 
 -- The Client with the keck --
 
 Developed by
- xush'
  Henritees
+ xush'
  FuroS
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -13,7 +13,7 @@ WARNING ABOUT PEOPLE SELLING LUA SCRIPTS
 If anybody wants to sell lua scripts to you, DON'T give them your money!
 Make sure to contact us first, since there are betrayers around who want you to
 pay them for scripts that are freely available from us. Make sure not to be taken
-by such assholes and don't hesitate to talk to us! (skype:henningstone)
+by such assholes and don't hesitate to talk to us! (skype: henningstone)
 I can give you almost every script for free that you could buy there!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡

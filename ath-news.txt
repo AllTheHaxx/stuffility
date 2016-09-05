@@ -6,41 +6,35 @@ by such scammers and don't hesitate to talk to us (Join the IRC)!
 I can give you almost everything for free that you could buy!
 
 
+|AllTheHaxx 0.26 released! [5.9.16]|
+=== YOU NEED TO DOWNLOAD IT MANUALLY FROM OUR WEBSITE, BECAUSE SO
+=== MANY FILES HAVE CHANGED (also we got win 64 bit, that you might want)
+- DDNet 10.3.1
+- option to disable the ingame cursor (crosshair)
+- new Lua events: OnGameStart() OnGameOver() OnFlagGrab(CID, Team) OnPredHammerHit(CID) - see API-notes
+- option to select different hud types
+- Serverlist filter to show empty only
+- use shell_execute instead of system call to restart the client
+- Lua API reworked - see API-notes
+- lua: less console spam - skinfetcher: security fix - irc: code fix
+- fixed autoselecting the lua-searchbar when pressing the clear-button
+- Luafile: clear the error string on non-errornous file unload
+- fixed tooltips, added friend highlighting in ingame players tab
+- fixed astar going through walls, display how far one was
+- added remaining lua exception handlers; all exceptions will be caught now
+- IRC UI: Automatically set the Editbox active
+- IRC: hide join button for OP aswell
+- Lua: fixed permissions & script-settings
+- Lua: OnScriptRenderSettings(<UIRect>MainView)
+- fixed Game.Chat:Say crashing when passing nil + transcmd $→$$
+- don't crash when passing nullpointer to TextEx
+- translator reacts only to known commands
+- Lua: OnScriptRenderInfo(<UIRect>View)
+* FOR THE FULL LIST OF ALL 79 COMMITS, SEE HERE: https://git.io/vis0E
+* GET IT HERE: allthehaxx.github.io
+
 |AllTheHaxx 0.25.1 released! [19.08.16]|
 - menu layout fixes (the overlapping stuff)
 - fixed serverlist cache manager
 - made chat-tees fade out aswell
 - added russian translation (by raven_kus)
-
-|AllTheHaxx 0.25 released! [16.08.16]|
-** ALL PEOPLE WHO HAD PROBLEMS GETTING THE LUAS THROUGH THE UPDATER
-** CAN DOWNLOAD A NEW COMPLETE CLIENT PACK FROM THE WEBSITE!
-- major menus rework, added manual pages
-- less console spam from lua
-- automatically detect default resolution
-- some security stuff
-
-|AllTheHaxx 0.24 released! [12.08.16]|
-=== YOU ARE HIGHLY RECOMMENDED TO UPDATE TO THIS VERSION
-=== FOR VULNERABILITY FIXES AND A BUNCH OF NEW LUAS ;)
-- FIXED THE SKINFETCHER! NOW *REALLY*!
-- Added a bunch of luas!
-- added an option to disable/customize the smooth emote wheel `cl_smooth_emote_wheel`
-- added a variable `cl_smart_zoom_val` to customize the zooming intensity
-- added `cl_chat` to disable chat completely/partly
-- option to show the ATH symbol in scoreboard `cl_scoreboard_show_ath`
-- fixed console command completion
-- reworked IRC hugely!
-- hide irc on connection state change
-- a few gui fixes / code improvements
-- add the smart zooming onto the user's set zooming value
-- much more.
-
-|++ AllTheHaxx 0.22+ requires manual download!|
-WARNING: Version 0.22 introduces a new support periode. That means we won't care
-about anybody using a version that was released before July 15, so you are highly
-recommended to update as soon as possible. I promise it will not break too much ;)
-
-MANUAL DOWNLOAD REQUIRED !!!
-→ Windows: git.io/vKzvx
-→ Linux64: git.io/vKzfU
