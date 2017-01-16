@@ -1,4 +1,21 @@
 
+********************************* 0.27 *********************************
+|
+| >> IMPORTANT NOTE <<
+|  It is no longer possible to run clc files, as they turned out to be
+|  somewhat of a security hole.
+|
+| >> IMPORTANT SCRIPT-BREAKING CHANGES <<
+| - Game.Client:Quit() and Game.Console:ExecuteLine() were removed due to
+|   being abused by malicious scripts to remote-control your client
+|
+| - lua built-in functions 'load', 'loadfile' and 'loadstring' were disabled
+|   for security reasons aswell
+|
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
 ********************************* 0.26 *********************************
 |
 | >> GENERAL CHANGES <<
@@ -43,7 +60,7 @@
 |
 |      Now you can receive the value of these variables like so: (whereever you need them)
 |                                       MyVar = _ConfigGet("MyConfigVal")
-|   
+|
 |
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 

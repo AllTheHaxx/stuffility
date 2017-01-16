@@ -1,4 +1,4 @@
-AllTheHaxx «» Version 0.26 built on 2016-09-05 (September 5)
+AllTheHaxx «» Version 0.27 built on 2017-01-16 (January 16)
 
 -- The Client with the keck --
 
@@ -21,9 +21,8 @@ I can give you almost every script for free that you could buy there!
 
 Please read the following carefully:
 
-This is an a pre-release built for testing purposes, it may
-contain bugs or crash at certain circumstances, althought
-it should be pretty stable.
+The development of this client is somewhat stalled, so don't expect too frequent updates :/
+
 If you find a bug anyway, I'd be grateful if you report it
 by creating an issue in our GitHub repo:
  https://github.com/AllTheHaxx/AllTheHaxx/issues
@@ -33,25 +32,17 @@ realtime, you can join the IRC at quakenet.org: #AllTheHaxx
 
 If you want to create lua scripts yourself, read the
 Lua Manual shipped with the client before asking dumb questions please :)
+Note tough that it is _very_ outdated, but still makes up for a good getting-started-guide.
 
-You may also be interested in the website, but keep in mind
-that it was made weeks ago, so all the contents is pretty
-outdated. We'll update it sometime :)
+You may also be interested in the website, which you can find here:
  https://allthehaxx.github.io
+You might find other websites that look like being the 'official' one, but they are not!
 
 IMPROTANT NOTE: Although this client is called "AllTheHaxx",
 it doesn't contain any cheats or bots! You shouldn't use bots!
 The client is opensource, so guaranteed to be 100% secure and
 free of harmful code. If you like to participate, you are welcome :)
  https://github.com/AllTheHaxx/AllTheHaxx/pulls
-
-Since this is a pre-release testing version, I highly recommend that
-you don't wait for the official builds (which are rather unfrequent)
-You go much better if you clone the git repository and compile yourself.
-A 'git pull' every two days will make sure that you're always
-running the latest version.
-Anyway, there is a (working) auto-updater since 0.18 that should make
-your life easier as far as updates are concerned :)
 
 IMPORTANT NOTE ON THE USE OF LUA SCRIPTS:
 We are not responsible if you get banned from a server because of
