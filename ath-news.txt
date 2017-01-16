@@ -1,14 +1,14 @@
 ﻿|Developement pretty much on ice - are we still alive?|
-You might have realized that there wasn't a single update in the past month, and
-I'd like to tell you why.
+You might have realized that there wasn't a single update in the past three months,
+and I'd like to tell you why.
 I'm recently pretty busy and have got much less time for coding on teeworlds
 related stuff than before. I can't tell for sure how much time will be
 invested into ATH for the next time, but for sure there won't be as much progress.
 I'm terribly sorry for leaving you all with this not quite finished thing, but it
-seems I don't have a choice ;(
-We'll try to fix the remaining urgend bugs (given that we can manage to find them)
-and maybe even release something like a 1.0 as some point.
-Who knows, maybe next year I'll have more time to spend again...? Although, how
+seems I don't have much of a choice ;(
+We'll try to fix the remaining urgent bugs (given that we can manage to find them)
+and maybe even release something like a 1.0 at some point.
+Who knows, maybe this year 2017 we all got more time to spend...? Although, how
 much of your time would you spend on a dying game?
 It's pretty discouraging to see teeworlds going under :(
 Or to say it with FuroS' words: "Hab voll Stimmungsschwankungen deshalb"
@@ -17,10 +17,23 @@ Or to say it with FuroS' words: "Hab voll Stimmungsschwankungen deshalb"
 |Warning about people selling lua scripts|
 If anybody wants to sell lua scripts to you, DON'T give them your money!
 Make sure to contact us first, since there are betrayers around who want you to
-pay them for scripts that are freely available from us. Make sure not to be fooled
-by such scammers and don't hesitate to talk to us (Join the IRC)!
+pay them for scripts that are freely available from us. ALSO, the scripts you
+you would buy from them will probably even be malicious!!
+Make sure not to be fooled by such scammers and don't hesitate to talk to us (IRC)!
 I can give you almost everything for free that you could buy!
 
+
+|AllTheHaxx 0.27 released [16.01.17]|
+Was pretty long since the last update, huh? Anyhow, there's not too much in this one...
+But it's still a very important security update!
+- DDNet 10.3.5
+- Added 'Magic game skin' gameskin & particles by Sayned
+- improved tooltips
+- clanplates coloring
+- Only show the serverlist save/load buttons on the internet tab
+- IRC: don't print join message for ourselves
+- Security fixes
+- various bug & code fixes
 
 |AllTheHaxx 0.26a released [11.10.16]|
 - DDNet 10.3.2
