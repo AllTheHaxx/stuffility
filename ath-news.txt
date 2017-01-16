@@ -11,7 +11,6 @@ and maybe even release something like a 1.0 at some point.
 Who knows, maybe this year 2017 we all got more time to spend...? Although, how
 much of your time would you spend on a dying game?
 It's pretty discouraging to see teeworlds going under :(
-Or to say it with FuroS' words: "Hab voll Stimmungsschwankungen deshalb"
 
 
 |Warning about people selling lua scripts|
