@@ -1,0 +1,264 @@
+[
+  {
+    "version": "0.27",
+    "numeric": 2700,
+    "remove":
+    [
+      "AllTheBots/AdvancedAimbot.clc",
+      "AllTheBots/AFKBOT.clc",
+      "AllTheBots/afkChatBot.clc",
+      "AllTheBots/autofire v2.clc",
+      "AllTheBots/AvoidFreeze.clc",
+      "AllTheBots/ChatJump.clc",
+      "AllTheBots/CloneEmotes.clc",
+      "AllTheBots/DisconnectBot.clc",
+      "AllTheBots/EmoteBOT.clc",
+      "AllTheBots/EmoteSpambot.clc",
+      "AllTheBots/FakeChat.clc",
+      "AllTheBots/FakeHook.clc",
+      "AllTheBots/flybot.clc",
+      "AllTheBots/flybot v3.clc",
+      "AllTheBots/GreetBot v2.clc",
+      "AllTheBots/HelpBot.clc",
+      "AllTheBots/HookBug.clc",
+      "AllTheBots/HookClosest.clc",
+      "AllTheBots/HowLong.clc",
+      "AllTheBots/LoLBot.clc",
+      "AllTheBots/M2A.clc",
+      "AllTheBots/RainbowSwitchColors.clc",
+      "AllTheBots/RandomKick.clc",
+      "AllTheBots/RepeatChat.clc",
+      "AllTheBots/RepeatChat++.clc",
+      "AllTheBots/Skin Stealer.clc",
+      "AllTheBots/SpamBot.clc",
+      "AllTheBots/SwitchColors.clc",
+      "AllTheBots/TeamBot.clc",
+      "AllTheBots/.cert/AdvancedAimbot.cert",
+      "AllTheBots/.cert/AFKBOT.cert",
+      "AllTheBots/.cert/afkChatBot.cert",
+      "AllTheBots/.cert/autofire v2.cert",
+      "AllTheBots/.cert/AvoidFreeze.cert",
+      "AllTheBots/.cert/ChatJump.cert",
+      "AllTheBots/.cert/CloneEmotes.cert",
+      "AllTheBots/.cert/DisconnectBot.cert",
+      "AllTheBots/.cert/EmoteBOT.cert",
+      "AllTheBots/.cert/EmoteSpambot.cert",
+      "AllTheBots/.cert/FakeChat.cert",
+      "AllTheBots/.cert/FakeHook.cert",
+      "AllTheBots/.cert/flybot.cert",
+      "AllTheBots/.cert/flybot v3.cert",
+      "AllTheBots/.cert/GreetBot v2.cert",
+      "AllTheBots/.cert/HelpBot.cert",
+      "AllTheBots/.cert/HookBug.cert",
+      "AllTheBots/.cert/HookClosest.cert",
+      "AllTheBots/.cert/HowLong.cert",
+      "AllTheBots/.cert/LoLBot.cert",
+      "AllTheBots/.cert/M2A.cert",
+      "AllTheBots/.cert/RainbowSwitchColors.cert",
+      "AllTheBots/.cert/RandomKick.cert",
+      "AllTheBots/.cert/RepeatChat.cert",
+      "AllTheBots/.cert/RepeatChat++.cert",
+      "AllTheBots/.cert/Skin Stealer.cert",
+      "AllTheBots/.cert/SpamBot.cert",
+      "AllTheBots/.cert/SwitchColors.cert",
+      "AllTheBots/.cert/TeamBot.cert",
+    ],
+    "download":
+    [
+      {
+        "repo": "AllTheHaxx",
+        "tree": "f5dad6b76635b8f2a84b646d5462d07a84c7da3c",
+        "files":
+        [
+          "data/textures/particles/Magic_game_skin.png",
+          "data/textures/game/Magic_game_skin.png",
+          "data/textures/game/Magic_game_skin_old.png"
+        ],
+        "dest": "./"
+      },
+      {
+        "repo": "stuffility",
+        "tree": "c063ad2cb1fc8f8a7e88dc5a039f362d413c1245",
+        "files": ["ATH-README.txt", "ATH-API-VersionNotes.txt"],
+        "dest": "./"
+      }
+    ]
+  },
+  {
+    "version": "0.26",
+    "numeric": 2600,
+    "remove": false,
+    "download": false
+  },
+  {
+    "version": "0.25.1",
+    "numeric": 2510,
+    "remove": ["lua/BloodPatch.lua"],
+    "download":
+    [
+      {
+        "repo": "AllTheHaxx",
+        "tree": "21eb6f790ff329444df5e26a9d4edf7c99d9f7c3",
+        "files": ["data/languages/russian.txt"],
+        "dest": "./"
+      },
+      {
+        "repo": "Lua-Scripts",
+        "tree": "879de91a197680919e9efece444e06e4c9bda3af",
+        "files": ["BloodPatch/BloodPatch.lua", "BloodPatch/data/blood.png", "BloodPatch/data/blood1.png", "BloodPatch/data/blood2.png", "BloodPatch/data/blood3.png", "BloodPatch/data/blood4.png"],
+        "dest": "lua/"
+      }
+    ]
+  },
+  {
+    "version": "0.25",
+    "numeric": 2500,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "stuffility",
+        "tree": "f91a3585baa8af093b99ed90f2ee234441f168b6",
+        "files": ["ATH-README.txt"],
+        "dest": "./"
+      }
+    ]
+  },
+  {
+    "version": "0.24",
+    "numeric": 2400,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "Lua-Scripts",
+        "tree": "5a23c7c605ee035b47f61518fcfb4fb2617815e1",
+        "files":
+        [
+          ".library/luac.lua",
+          "AllTheBots/AFKBOT.clc",
+          "AllTheBots/afkChatBot.clc",
+          "AllTheBots/aimbot.clc",
+          "AllTheBots/Aimbot.clc",
+          "AllTheBots/autofire v2.clc",
+          "AllTheBots/AvoidFreeze.clc",
+          "AllTheBots/ChatJump.clc",
+          "AllTheBots/CloneEmotes.clc",
+          "AllTheBots/DisconnectBot.clc",
+          "AllTheBots/EmoteBOT.clc",
+          "AllTheBots/EmoteSpambot.clc",
+          "AllTheBots/FakeChat.clc",
+          "AllTheBots/FakeHook.clc",
+          "AllTheBots/flybot.clc",
+          "AllTheBots/flybot v3.clc",
+          "AllTheBots/GreetBot v2.clc",
+          "AllTheBots/HelpBot.clc",
+          "AllTheBots/HookBug.clc",
+          "AllTheBots/HookClosest.clc",
+          "AllTheBots/HowLong.clc",
+          "AllTheBots/LoLBot.clc",
+          "AllTheBots/M2A.clc",
+          "AllTheBots/RandomKick.clc",
+          "AllTheBots/RepeatChat.clc",
+          "AllTheBots/RepeatChat++.clc",
+          "AllTheBots/SpamBot.clc",
+          "AllTheBots/TeamBot.clc",
+
+          "AllTheBots/.cert/AFKBOT.cert",
+          "AllTheBots/.cert/afkChatBot.cert",
+          "AllTheBots/.cert/aimbot.cert",
+          "AllTheBots/.cert/Aimbot.cert",
+          "AllTheBots/.cert/autofire v2.cert",
+          "AllTheBots/.cert/AvoidFreeze.cert",
+          "AllTheBots/.cert/ChatJump.cert",
+          "AllTheBots/.cert/CloneEmotes.cert",
+          "AllTheBots/.cert/DisconnectBot.cert",
+          "AllTheBots/.cert/EmoteBOT.cert",
+          "AllTheBots/.cert/EmoteSpambot.cert",
+          "AllTheBots/.cert/FakeChat.cert",
+          "AllTheBots/.cert/FakeHook.cert",
+          "AllTheBots/.cert/flybot.cert",
+          "AllTheBots/.cert/flybot v3.cert",
+          "AllTheBots/.cert/GreetBot v2.cert",
+          "AllTheBots/.cert/HelpBot.cert",
+          "AllTheBots/.cert/HookBug.cert",
+          "AllTheBots/.cert/HookClosest.cert",
+          "AllTheBots/.cert/HowLong.cert",
+          "AllTheBots/.cert/LoLBot.cert",
+          "AllTheBots/.cert/M2A.cert",
+          "AllTheBots/.cert/RandomKick.cert",
+          "AllTheBots/.cert/RepeatChat.cert",
+          "AllTheBots/.cert/RepeatChat++.cert",
+          "AllTheBots/.cert/SpamBot.cert",
+          "AllTheBots/.cert/TeamBot.cert"
+        ],
+        "dest": "lua/"
+      },
+      {
+        "repo": "stuffility",
+        "tree": "f46d2a5269b21260c41d90240033b2812a02fafa",
+        "files": ["ATH-README.txt", "ATH-API-VersionNotes.txt"],
+        "dest": "./"
+      }
+    ]
+  },
+  {
+    "version": "0.23.1",
+    "numeric": 2310,
+    "remove": false,
+    "download": false
+  },
+  {
+    "version": "0.23",
+    "numeric": 2300,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "AllTheHaxx",
+        "tree": "035fb351c108efb473d7f56826ff592be1a8fa90",
+        "files": ["data/editor/entities_clear/ddrace.png"],
+        "dest": "./"
+      },
+      {
+        "repo": "stuffility",
+        "tree": "de772c0533a49a068ce004eff5fcd760b0c9fa13",
+        "files": ["ATH-README.txt"],
+        "dest": "./"
+      }
+    ]
+  },
+  {
+    "version": "0.22.2",
+    "numeric": 2220,
+    "remove": false,
+    "download": false
+  },
+  {
+    "version": "0.22.1f",
+    "numeric": 2211,
+    "remove": false,
+    "download":
+    [
+      {
+        "repo": "stuffility",
+        "tree": "a0cf0a670573a324ac9944b2a8081de46972c912",
+        "files": ["ATH-README.txt"],
+        "dest": "./"
+      }
+    ]
+  },
+  {
+    "version": "0.22.1",
+    "numeric": 2210,
+    "remove": ["++++ UpdateNote ++++.txt"],
+    "download": false
+  },
+  {
+    "version": "0.22",
+    "numeric": 2200,
+    "remove": ["++++ UpdateNote ++++.txt"],
+    "download": false
+  }
+]
+
