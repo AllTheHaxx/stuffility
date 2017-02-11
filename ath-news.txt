@@ -1,9 +1,16 @@
-﻿|Warning about people selling lua scripts|
+﻿|Warning about lua script download packs|
 I came to hear that these questionable scripts are now given away for free, because
 they have a damn RAT in them which allows him to control your client!
 (and of course this asshole wants to spread that shit)
 Always remember: "If something seems too good to be true, it probably is"
 
+
+|AllTheHaxx 0.29 released [11.02.17]|
+Another quick security update for the lua API to address recent issues (& moar bugfixes!)
+- FINALLY fixed console mode on linux
+- Added default bind for fullscreen toggling where it is expectable (F11) [by @Socialdarwinist]
+- added cl_console_low_cpu making low fps on console toggle optional
+- more lua security
 
 |AllTheHaxx 0.28 released [04.02.17]|
 A little update bringing you a bunch of bugfixes (and some features for Lua)
