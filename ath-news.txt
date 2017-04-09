@@ -1,44 +1,56 @@
-﻿|Warning about lua script download packs|
-I came to hear that these questionable scripts are now given away for free, because
-they have a damn RAT in them which allows him to control your client!
-(and of course this asshole wants to spread that shit)
-Always remember: "If something seems too good to be true, it probably is"
+﻿
+|AllTheHaxx 0.30 released [09.04.17]|
+IMPORTANT: Download a new pack from the website! Replacing the exe won't work!!
+It has been another two months since the last update, but here we are again!
+Waiting was worth it, there have been 264 commits since 0.29 was released.
+Because it's so much, here are only the most significant changes for you:
 
+Important Bugfixes:
+- Fixed an incredible number of crashbugs, including many rather old ones
+- Fixed UI input locking up after closing the IRC overlay
+- If ATH was using a lot of your CPU, write 'default cl_cpu_throttle' in F1
 
-|AllTheHaxx 0.29 released [11.02.17]|
-Another quick security update for the lua API to address recent issues (& moar bugfixes!)
-- FINALLY fixed console mode on linux
-- Added default bind for fullscreen toggling where it is expectable (F11) [by @Socialdarwinist]
-- added cl_console_low_cpu making low fps on console toggle optional
-- more lua security
+New Features:
+- Smooth chat!
+- Reworked the crypted chat to use a symmetric cipher (AES-128)
+- Added dump_free_keys to show all unbound keys
+- Much more (can you spot everything? :P)
 
-|AllTheHaxx 0.28 released [04.02.17]|
-A little update bringing you a bunch of bugfixes (and some features for Lua)
-- fixed the bug where you suddenly couldn't click anything anymore
-- Made Console copy/cut/paste code a bit nicer
-- fixed input freezing after closing the console
-- More smooth for emote menu
-- better lua error messages
----- lua related stuff ----
-Fixes TL;DR: worked towards an approach where lua script wouldn't be able to crash the client anymore,
-instead, the client will crash your scripts if they do insane stuff.
-- Lua Console commands: !help, !reset and !reload
-- Lua Editboxes
-- Init lua earlier to prevent crashes with autoload
-- Wrappers for all Engine.Graphics: functions; errors with these now throw exceptions instead of crashing
-- Kill scripts on oom
-And a lot more!
-https://github.com/AllTheHaxx/AllTheHaxx/compare/0.27...0.28
+Customization:
+- Added X-Ray textures (aka entities) to the texture manager
+- Font Manager to select fonts + Monospace fonts where appropriate
 
+Consoles:
+- Colored F1 console emphasizing on chat
+- CTRL-Scroll to change fontsize
+- Use CTRL-key shortcuts in the consoles for cool stuff :)
+- Added a script-debugger to the lua console
+- Made command replay (up/down keys) more intuitive
+- Upgraded the lua console a lot
 
-|AllTheHaxx 0.27 released [16.01.17]|
-Was pretty long since the last update, huh? Anyhow, there's not too much in this one...
-But it's still a very important security update!
-- DDNet 10.3.5
-- Added 'Magic game skin' gameskin & particles by Sayned
-- improved tooltips
-- clanplates coloring
-- Only show the serverlist save/load buttons on the internet tab
-- IRC: don't print join message for ourselves
-- Security fixes
-- various bug & code fixes
+Concerning UI:
+- Scrollbars adopt to the listbox length (as usually expected)
+- Fixed the emote selection cursor being wrong on windows
+- Finally fixed behavior of the server-dependend-configuration interface
+- Rejigged the settings GUI a bit (moved stuff from General to Appearance>HUD)
+
+General Improvements:
+- Unified cursor control experience in chat, editboxes, console, ...
+- Fixed client startup and made it a little bit faster
+- Rewrote most of the auto-updater system, making updates safer (for you) and easier (for us)
+
+Lua:
+- Added throw() function to create an exception without returning control from the script
+- Abort scripts when there is an error raised in OnScriptInit()
+- Added a tostring metafunction to all vec's, usage example: print(tostring(vec3f(1,2,3)))
+- Listdir is verbose now and also accepts functions now instead of only function names as callback
+- Added TW.Game:SendKill() to kill the player
+- Added Game.Client.TickSpeed to get the server's tickspeed
+- Added Game.IRC:JoinTo and Game.IRC:SendMsg
+- Added Engine.Graphics:ClipEnable(x,y,w,h) and Engine.Graphics:ClipDisable()
+- Added Game.Ui:ClipEnable(<UIRect>) and Game.Ui:ClipDisable()
+
+If you are interested in *everything*, you'll find it here:
+    https://github.com/AllTheHaxx/AllTheHaxx/compare/0.29...0.30
+
+Concerning DDNet: this version of AllTheHaxx is at level with 10.4.3
