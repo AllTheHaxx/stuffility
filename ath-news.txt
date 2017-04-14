@@ -1,5 +1,5 @@
 ﻿
-|AllTheHaxx 0.30.1 released [13.04.17]|
+|AllTheHaxx 0.30.1 and 0.30.1.1 released [13.04.17 and 14.04.17]|
 A little follow-up release bringing some exciting new features :)
 - Super-dynamic-camera / unlocked cursor
 - Color Pickers in Settings>Appearance>HUD
@@ -18,6 +18,10 @@ Lua:
 - Added Engine.Graphics:QuadsDrawTL
 - Added Engine.Storage:CreateFolder
 - Fixed Game.Menus.MousePos being misaligned
+
+Concerning 0.30.1.1
+     It would appear that I found a rather critical memory bug right after
+     releasing 0.30.1, so here is another release. Goodies included.
 
 
 |AllTheHaxx 0.30 released [09.04.17]|
