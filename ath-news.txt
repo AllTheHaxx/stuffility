@@ -1,4 +1,9 @@
 ﻿
+|AllTheHaxx 0.30.1.2 released [16.04.17]|
+- Superdynamic camera (f1: bind lctrl +super_dyncam)
+- Fixed a clienthang related to pasting into editboxes
+- DDNet 10.5
+
 |AllTheHaxx 0.30.1 and 0.30.1.1 released [13.04.17 and 14.04.17]|
 A little follow-up release bringing some exciting new features :)
 - Super-dynamic-camera / unlocked cursor
