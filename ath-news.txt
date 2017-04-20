@@ -1,4 +1,28 @@
 ﻿
+|AllTheHaxx 0.30.2 released [20.04.17]|
+
+- Quick-Update the serverlist on client start
+- Cinematic ingame cam should follow predicted tee
+    thanks to Nibiru for reporting this
+- Automatically activate the text entry in IRC + only auto-set nickname when connecting (not when typing)
+- Forbid showing entities overlay when not online
+- Changed wrong usage of '+' commands
+- Pathfinding should take care of stop tiles too
+- Fixed a double-free + auto-update bound keys
+- Fixed a crash with `dump_bind`
+- Fixed more crashes related to binds
+- Another lua crash fix
+- Lua: updated config lib
+- fixed another possible crash related to serverlist cache
+- Lua: removed FontFace argument from Game.Ui:DoLabel[Scaled]
+    sorry for the inconveniences
+- Added `timeout` command
+- Replaced toggle dyncam bind with super-dyncam
+- `stoprecord`: option to specify the demorecorder ID
+- Neither join the input thread nor free the console
+- Detach lua script from debugger when it is unloaded
+    thanks to 'Hammerlags' for reporting this
+
 |AllTheHaxx 0.30.1.2 released [16.04.17]|
 - Superdynamic camera (f1: bind lctrl +super_dyncam)
 - Fixed a clienthang related to pasting into editboxes
@@ -69,18 +93,6 @@ General Improvements:
 - Fixed client startup and made it a little bit faster
 - Rewrote most of the auto-updater system, making updates safer (for you) and easier (for us)
 
-Lua:
-- Added throw() function to create an exception without returning control from the script
-- Abort scripts when there is an error raised in OnScriptInit()
-- Added a tostring metafunction to all vec's, usage example: print(tostring(vec3f(1,2,3)))
-- Listdir is verbose now and also accepts functions now instead of only function names as callback
-- Added TW.Game:SendKill() to kill the player
-- Added Game.Client.TickSpeed to get the server's tickspeed
-- Added Game.IRC:JoinTo and Game.IRC:SendMsg
-- Added Engine.Graphics:ClipEnable(x,y,w,h) and Engine.Graphics:ClipDisable()
-- Added Game.Ui:ClipEnable(<UIRect>) and Game.Ui:ClipDisable()
-
-If you are interested in *everything*, you'll find it here:
-    https://github.com/AllTheHaxx/AllTheHaxx/compare/0.29...0.30
+[ .... ]
 
 Concerning DDNet: this version of AllTheHaxx is at level with 10.4.3
