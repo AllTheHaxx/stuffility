@@ -1,4 +1,16 @@
 ﻿
+|AllTheHaxx 0.30.3 released [06.06.17]|
+
+Most important changes:
+- Performance imporvements when having a lot (like hundreds) of lua scripts
+- CTRL+SHIFT+L to quick-unload all lua scripts
+- Fixed lua autoloads
+- Show the menu background map also after being kicked
+- Fixed lua getting stuck in fullscreen mode
+- Lua: access to voting stuff
+- Lua: possibility to pass functions to RegisterEvent 
+- DDNet 10.6.2
+
 |AllTheHaxx 0.30.2 released [20.04.17]|
 
 - Quick-Update the serverlist on client start
