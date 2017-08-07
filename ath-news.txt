@@ -1,4 +1,20 @@
 ﻿
+|AllTheHaxx 0.31 released [07.08.17]|
+
+A small update bringing great things! I think you'll like it :)
+- Option to swap chat notification/highlight sounds + improved sound settings page layout
+- Tidy-up of the graphics settings + better cpu saver
+- Checkbox to select whether to close the callvote menu after voting
+- Store identities as single json file + copy&paste support
+- New identities should be a default tee
+- Fixed Get an Segmentation fault on unload a lua script
+- Fixed Lua Script reload
+- New gameskin "Overwatch"
+- Hopefully IRC crash fixes
+- More improvements and fixes
+- Added CTextCursor to the lua API
+- DDNet 10.7.1 compatible
+
 |AllTheHaxx 0.30.3 released [06.06.17]|
 
 Most important changes:
@@ -39,72 +55,3 @@ Most important changes:
 - Superdynamic camera (f1: bind lctrl +super_dyncam)
 - Fixed a clienthang related to pasting into editboxes
 - DDNet 10.5
-
-|AllTheHaxx 0.30.1 and 0.30.1.1 released [13.04.17 and 14.04.17]|
-A little follow-up release bringing some exciting new features :)
-- Super-dynamic-camera / unlocked cursor
-- Color Pickers in Settings>Appearance>HUD
-- Click Lua exceptions to copy them
-- Fixed crash when opening ghost window whilst it is empty
-- Fixed webdl crash + added more info to the popup
-- Fixed message highlighting in F1
-- Optimized Databasing + reimplemented statistics
-- Improved x-ray entity selection
-- UI-locking-up fixes & cleanups
-
-Lua:
-- Added Lua Fullscreen Mode, your scripts can now disable all UI using EnterFullscreen()
-- Added Game.Ui:DoButtonLogic
-- Added Game.Menus:DoColorPicker
-- Added Engine.Graphics:QuadsDrawTL
-- Added Engine.Storage:CreateFolder
-- Fixed Game.Menus.MousePos being misaligned
-
-Concerning 0.30.1.1
-     It would appear that I found a rather critical memory bug right after
-     releasing 0.30.1, so here is another release. Goodies included.
-
-
-|AllTheHaxx 0.30 released [09.04.17]|
-IMPORTANT: Download a new pack from the website! Replacing the exe won't work!!
-It has been another two months since the last update, but here we are again!
-Waiting was worth it, there have been 264 commits since 0.29 was released.
-Because it's so much, here are only the most significant changes for you:
-
-Important Bugfixes:
-- Fixed an incredible number of crashbugs, including many rather old ones
-- Fixed UI input locking up after closing the IRC overlay
-- If ATH was using a lot of your CPU, write 'default cl_cpu_throttle' in F1
-
-New Features:
-- Smooth chat!
-- Reworked the crypted chat to use a symmetric cipher (AES-128)
-- Added dump_free_keys to show all unbound keys
-- Much more (can you spot everything? :P)
-
-Customization:
-- Added X-Ray textures (aka entities) to the texture manager
-- Font Manager to select fonts + Monospace fonts where appropriate
-
-Consoles:
-- Colored F1 console emphasizing on chat
-- CTRL-Scroll to change fontsize
-- Use CTRL-key shortcuts in the consoles for cool stuff :)
-- Added a script-debugger to the lua console
-- Made command replay (up/down keys) more intuitive
-- Upgraded the lua console a lot
-
-Concerning UI:
-- Scrollbars adopt to the listbox length (as usually expected)
-- Fixed the emote selection cursor being wrong on windows
-- Finally fixed behavior of the server-dependend-configuration interface
-- Rejigged the settings GUI a bit (moved stuff from General to Appearance>HUD)
-
-General Improvements:
-- Unified cursor control experience in chat, editboxes, console, ...
-- Fixed client startup and made it a little bit faster
-- Rewrote most of the auto-updater system, making updates safer (for you) and easier (for us)
-
-[ .... ]
-
-Concerning DDNet: this version of AllTheHaxx is at level with 10.4.3
