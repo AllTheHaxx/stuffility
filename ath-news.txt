@@ -1,4 +1,18 @@
 ﻿
+|AllTheHaxx 0.32 released [04.10.17]|
+
+Highlights of this release:
+- Completely reworked astar pathfinding
+- Support for the BlockWorlds mod
+- More security for Lua (io sandboxing)
+Moreover featured by 0.32:
+- Setting to adjust corner roundings to personal preferences
+- UI improvements (fixed color selectors, better vote menu behavior, ...)
+- Translator ignores prefixed player names
+- Mention in IRC being triggered falsely
+- Crash fix with joining certain maps (mostly seen on iF|City)
+A list of all changes can be found online.
+
 |AllTheHaxx 0.31 released [07.08.17]|
 
 A small update bringing great things! I think you'll like it :)
@@ -24,7 +38,7 @@ Most important changes:
 - Show the menu background map also after being kicked
 - Fixed lua getting stuck in fullscreen mode
 - Lua: access to voting stuff
-- Lua: possibility to pass functions to RegisterEvent 
+- Lua: possibility to pass functions to RegisterEvent
 - DDNet 10.6.2
 
 |AllTheHaxx 0.30.2 released [20.04.17]|
