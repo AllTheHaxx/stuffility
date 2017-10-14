@@ -1,4 +1,9 @@
 ﻿
+|AllTheHaxx 0.33 released [04.10.17]|
+- Better handling of fullscreen/borderless
+- UI scaling improvements
+- Slight performance improvements when ingame
+
 |AllTheHaxx 0.32 released [04.10.17]|
 
 Highlights of this release:
