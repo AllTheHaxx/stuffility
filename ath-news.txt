@@ -1,4 +1,26 @@
 ﻿
+|AllTheHaxx 0.34 released [08.11.17]|
+Highlight of this version: Stealth Mode!
+
+- Automatically adjust ui scale to resolution
+- Small vertical view when votes window is minimized
+- Load skins textures threaded on demand
+- Fixed Spectator Selection Cursor being offset
+- Fixed Buttons on Popups being misaligned with ui_scale != 100
+
+- Fixed a bunch of threading related issues
+- Fixed a use after free
+- Removed MSVCR110.dll dependency
+- Fixed crash when lua exceptions occur in OnScriptUnload
+
+Lua:
+- added Game.RenderTools:RenderTee
+- added Game.Players(ID).RenderInfo
+- added Game.Snap:PlayerInfos(ID)
+- added Game.ServerInfo.{NumClients/MaxClients}
+- fixed config.lua library to work correctly with sandboxing
+- fixed subsequent permission loading
+
 |AllTheHaxx 0.33.1 released [19.10.17]|
 - Fixed resolution change on windows
 - Advanced Inline Text Coloring
@@ -10,7 +32,6 @@
 - Slight performance improvements when ingame
 
 |AllTheHaxx 0.32 released [04.10.17]|
-
 Highlights of this release:
 - Completely reworked astar pathfinding
 - Support for the BlockWorlds mod
@@ -24,7 +45,6 @@ Moreover featured by 0.32:
 A list of all changes can be found online.
 
 |AllTheHaxx 0.31 released [07.08.17]|
-
 A small update bringing great things! I think you'll like it :)
 - Option to swap chat notification/highlight sounds + improved sound settings page layout
 - Tidy-up of the graphics settings + better cpu saver
@@ -38,15 +58,3 @@ A small update bringing great things! I think you'll like it :)
 - More improvements and fixes
 - Added CTextCursor to the lua API
 - DDNet 10.7.1 compatible
-
-|AllTheHaxx 0.30.3 released [06.06.17]|
-
-Most important changes:
-- Performance imporvements when having a lot (like hundreds) of lua scripts
-- CTRL+SHIFT+L to quick-unload all lua scripts
-- Fixed lua autoloads
-- Show the menu background map also after being kicked
-- Fixed lua getting stuck in fullscreen mode
-- Lua: access to voting stuff
-- Lua: possibility to pass functions to RegisterEvent
-- DDNet 10.6.2
