@@ -1,6 +1,6 @@
 ﻿
-|AllTheHaxx 0.34 released [08.11.17]|
-Highlight of this version: Stealth Mode! (scroll down!)
+|$$2IRAllTheHaxx 0.34 released [08.11.17]|
+$$VS2Highlight of this version: Stealth Mode! (scroll down!)
 
 - Automatically adjust ui scale to resolution
 - Small vertical view when votes window is minimized
@@ -21,7 +21,7 @@ Lua:
 - fixed config.lua library to work correctly with sandboxing
 - fixed subsequent permission loading
 
-|About the new StealthMode|
+|$$Z00About the new StealthMode|
 "StealthMode is to AllTheHaxx what botless-version is to bot clients"
 When starting your client in stealth mode, it will look to servers as if it was
 a vanilla client. Anyhow, it will also behave a bit more like a vanilla client.
