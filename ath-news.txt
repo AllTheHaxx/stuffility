@@ -1,4 +1,25 @@
 ﻿
+$$J00Mary Christmas and Happy Holidays to everyone!
+
+|$$2IRAllTheHaxx 0.35 released [21.12.17]|
+- IRC: properly send multiline messages
+- Added call vote by double clicking it
+- Added `tex_entities_auto_select` to disable xray-autoselection
+- Added CTRL+SHIFT+I in serverbrowser to refresh current entry
+- Fixed graphics bug with emote wheel
+- Fixed crash with 'vanilla skins only'
+- Safer thread-safety in jobs + micro-optimizations
+- Fixed another client crashing exploit
+
+Lua:
+- AStar bindings
+- Added sounds lib
+- Fixed frequency of lua OnTick event
+- Made Quads & Lines rendering in Lua safer
+
+$$EEEKnown Issues:
+$$EEE- In the HTTP-mapdownload screen, the link is displayed incorrectly
+
 |AllTheHaxx 0.34.1 released [24.11.17]|
 - many ui scaling fixes (good for people with non-16:9 resolutions!)
 - tolerate whitespaces infront of console command
@@ -6,7 +27,7 @@
 - updated the german translation
 - bumped underlaying vanilla version to 0.6.4
 
-|$$2IRAllTheHaxx 0.34 released [08.11.17]|
+|AllTheHaxx 0.34 released [08.11.17]|
 $$VS2Highlight of this version: Stealth Mode! (scroll down!)
 
 - Automatically adjust ui scale to resolution
@@ -53,16 +74,3 @@ cl_stealth_send_ddnet_version - enable this for optimal compatibility
 - Better handling of fullscreen/borderless
 - UI scaling improvements
 - Slight performance improvements when ingame
-
-|AllTheHaxx 0.32 released [04.10.17]|
-Highlights of this release:
-- Completely reworked astar pathfinding
-- Support for the BlockWorlds mod
-- More security for Lua (io sandboxing)
-Moreover featured by 0.32:
-- Setting to adjust corner roundings to personal preferences
-- UI improvements (fixed color selectors, better vote menu behavior, ...)
-- Translator ignores prefixed player names
-- Mention in IRC being triggered falsely
-- Crash fix with joining certain maps (mostly seen on iF|City)
-A list of all changes can be found online.
