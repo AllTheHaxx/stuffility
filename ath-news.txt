@@ -1,6 +1,8 @@
 ﻿
-|$$N00Merry Christmas and Happy Holidays to everyone!|
-$$J00Don't worry about the santa hats, they'll go away on the 26th.
+|$$N00We've got a forum now!|
+After more than two years of ATH and a growing userbase having
+a forum might in fact be a useful thing, so come join us over
+at https://allthehaxx.eu/forum/ if you want to :)
 
 |$$2IRAllTheHaxx 0.35 released [21.12.17]|
 - IRC: properly send multiline messages
