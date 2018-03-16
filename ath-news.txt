@@ -3,8 +3,9 @@
 After more than two years of ATH and a growing userbase having
 a forum might in fact be a useful thing, so come join us over
 at https://allthehaxx.eu/forum/ if you want to :)
+(double-click the link to open it - that's some high tech dude!)
 
-|$$2IRAllTheHaxx 0.35 released [21.12.17]|
+|$$2RIAllTheHaxx 0.35 released [21.12.17]|
 - IRC: properly send multiline messages
 - Added call vote by double clicking it
 - Added `tex_entities_auto_select` to disable xray-autoselection
