@@ -5,7 +5,46 @@ a forum might in fact be a useful thing, so come join us over
 at https://allthehaxx.eu/forum/ if you want to :)
 (double-click the link to open it - that's some high tech dude!)
 
-|$$2RIAllTheHaxx 0.35 released [21.12.17]|
+|$$2RIAllTheHaxx 0.36 released [11.04.18]|
+It's been a long time, but finally another update is live :)
+- Implemented double click to vote
+- fixed double click on first item in browser
+- fixed client hang with smartzoom
+- Lua profiler added
+- security improvements
+- Fixed a possible crash in text rendering (thanks to Jubjub)
+- Added gfx_simple_window_title
+- Added failsafe mode (ignores lua autoloads)
+- Added admin-buttons (kick, ban, mute) to the playerlist
+- Implemented night mode 
+- New official script: Moba-HUD by YoungFlyme
+- Fixed scoreboard fading
+- Option to set outgoing port for the next connection
+- randomize the outgoing port on every connection
+- added velocity to debug hud
+- fixed loading screen displaying the previous step instead of the current one
+- crash fixes (just like in every other update)
+- and more. (A full list of changes is on GitHub, as always.)
+
+Lua:
+- don't allow Import()ing scripts from lua_sandbox
+- Json parser and serializer
+- SQLite bindings
+- rewrote the config lib to use json instead
+- Client.AStar:InitPathBuilder
+- AStar GetStart/GetFinish
+- added Engine.Graphics:LoadTextureSimple and Engine.Graphics.InvalidTexture
+- sandboxed Listdir function
+- removed ffi
+- removed deprecated _graphics namespace + added Game.IRC:GetUserlist 
+- Added SetScriptTitle(), SetScriptInfo(), CheckVersion()
+- Automatic ressource cleanup (e.g. textures) on script unload
+- Added Game.Teams API
+- made Game.Ui:DoLabel{Scaled} fool-proof
+- added DEMORECORDER constants to twdata lib
+- added more functions to Game.Collision
+
+|AllTheHaxx 0.35 released [21.12.17]|
 - IRC: properly send multiline messages
 - Added call vote by double clicking it
 - Added `tex_entities_auto_select` to disable xray-autoselection
@@ -31,29 +70,8 @@ $$EEE- In the HTTP-mapdownload screen, the link is displayed incorrectly
 - updated the german translation
 - bumped underlaying vanilla version to 0.6.4
 
-|AllTheHaxx 0.34 released [08.11.17]|
-$$VS2Highlight of this version: Stealth Mode! (scroll down!)
 
-- Automatically adjust ui scale to resolution
-- Small vertical view when votes window is minimized
-- Load skins textures threaded on demand
-- Fixed Spectator Selection Cursor being offset
-- Fixed Buttons on Popups being misaligned with ui_scale != 100
-
-- Fixed a bunch of threading related issues
-- Fixed a use after free
-- Removed MSVCR110.dll dependency
-- Fixed crash when lua exceptions occur in OnScriptUnload
-
-Lua:
-- added Game.RenderTools:RenderTee
-- added Game.Players(ID).RenderInfo
-- added Game.Snap:PlayerInfos(ID)
-- added Game.ServerInfo.{NumClients/MaxClients}
-- fixed config.lua library to work correctly with sandboxing
-- fixed subsequent permission loading
-
-|$$Z00About the new StealthMode|
+|$$Z00About the StealthMode|
 "StealthMode is to AllTheHaxx what botless-version is to bot clients"
 When starting your client in stealth mode, it will look to servers as if it was
 a vanilla client. Anyhow, it will also behave a bit more like a vanilla client.
@@ -68,13 +86,3 @@ Here is an overview about what starting ATH in StealthMode will do:
 There are config variables to change the last two things though:
 cl_stealth_force_ath_broadcast - enabling this might get you auto-kicked!
 cl_stealth_send_ddnet_version - enable this for optimal compatibility
-
-|AllTheHaxx 0.33.1 released [19.10.17]|
-- Fixed resolution change on windows
-- Advanced Inline Text Coloring
-- Fixed the serverlist cache manager
-
-|AllTheHaxx 0.33 released [04.10.17]|
-- Better handling of fullscreen/borderless
-- UI scaling improvements
-- Slight performance improvements when ingame
