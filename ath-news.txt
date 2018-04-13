@@ -5,7 +5,21 @@ a forum might in fact be a useful thing, so come join us over
 at https://allthehaxx.eu/forum/ if you want to :)
 (double-click the link to open it - that's some high tech dude!)
 
-|$$2RIAllTheHaxx 0.36 released [11.04.18]|
+|$$2RIAllTheHaxx 0.36.1 released [12.04.18]|
+Another day, another update! Kinda compensates for the long
+period without any activity, doesn it? :)
+The main reason is that this one contains an $$ZNQimportant crash fix$$ZZZ,
+so make sure to update!
+- Removed some useless filters from the DDNet browser page
+- Added CTRL+F & CTRL+E for the serverbrowser
+- added vanilla maps (fixes possible crash when joining certain servers)
+- fixed the updater problem
+- fixed pathfinding crash
+- fixed LAN server discovering
+- use DDNet's new system for their serverlist
+- Back up the identity file before overwriting it
+
+|AllTheHaxx 0.36 released [11.04.18]|
 It's been a long time, but finally another update is live :)
 - Implemented double click to vote
 - fixed double click on first item in browser
