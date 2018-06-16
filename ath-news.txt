@@ -5,14 +5,28 @@ a forum might in fact be a useful thing, so come join us over
 at https://allthehaxx.eu/forum/ if you want to :)
 (double-click the link to open it - that's some high tech dude!)
 
-|$$2RIAllTheHaxx 0.36.3 released [15.05.18]|
+|$$2RIAllTheHaxx 0.36.4 released [17.06.18]|
+- allow cl_overlay_entities in demo playback 
+- option for background auto-updates
+- parse color codes in f1 as well
+- Lua: FreeformItem and ColorVertex
+- Lua: color functions
+- Lua: allow Listdir'ing the lua folder
+- fixed ui locking in irc and browser toolbox
+- fixed stealth mode not being all that stealthy
+- refractored the skinfetcher a bit
+- miniscule lua settings gui improvement
+- added conn_timeout to the general settings ui
+- Spam protection for Hidden-Chat
+
+|AllTheHaxx 0.36.3 released [15.05.18]|
 - fixed lan discovery
 - possibility to disable moonwalk (cl_moonwalk 0)
 - config vars to change position of fps/pred counters (cl_show{fps|pred}_pos)
 - better restart mechanism (replace current process instead of creating new one)
 - search servers in browser by address as well in the searchbar
 
-|$$2RIAllTheHaxx 0.36.1 released [12.04.18]|
+|AllTheHaxx 0.36.1 released [12.04.18]|
 Another day, another update! Kinda compensates for the long
 period without any activity, doesn it? :)
 The main reason is that this one contains an $$ZNQimportant crash fix$$ZZZ,
