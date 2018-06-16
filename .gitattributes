@@ -1,1 +1,2 @@
 releases/AllTheHaxx-0.36.tar.gz filter=lfs diff=lfs merge=lfs -text
+releases/AllTheHaxx-0.36.1.tar.gz filter=lfs diff=lfs merge=lfs -text
