@@ -5,12 +5,20 @@ a forum might in fact be a useful thing, so come join us over
 at https://allthehaxx.eu/forum/ if you want to :)
 (double-click the link to open it - that's some high tech dude!)
 
-|$$2RIAllTheHaxx 0.36.4 released [18.06.18]|
+$$Z00If you get "update check failed" re-download the zip from our website!
+
+|$$2RIAllTheHaxx 0.36.4b released [08.07.18]|
+- fixed F1-autocompletion bug
+- fixed lua permission loading
+- fixed crash when there are no skins available
+- enable br_auto_refresh by default
+
+|AllTheHaxx 0.36.4a released [18.06.18]|
 I screwed up the last one a bit,
 so make sure to get this one aswell
 (it fixes stealth mode - so get it before complaining!)
 
-|$$2RIAllTheHaxx 0.36.4 released [17.06.18]|
+|AllTheHaxx 0.36.4 released [17.06.18]|
 - allow cl_overlay_entities in demo playback 
 - option for background auto-updates
 - parse color codes in f1 as well
