@@ -1,11 +1,17 @@
 ﻿
-|$$N00We've got a forum now!|
-After more than two years of ATH and a growing userbase having
-a forum might in fact be a useful thing, so come join us over
-at https://allthehaxx.eu/forum/ if you want to :)
+
+|$$N00We've got a discord now!|
+Come join us over at https://discord.gg/arJg6aKaaj if you want to :)
 (double-click the link to open it - that's some high tech dude!)
 
 $$Z00If you get "update check failed" re-download the zip from our website!
+
+|$$2RIAllTheHaxx 0.37.1 released [23.02.21]|
+- removed lua api features that could be considered cheating
+- removed stealth mode (being stealthy is default until servers dont ban us anymore) 
+- no zooming on fng gamemodes anymore
+- moonwalk is off by default (it's bannable on some servers!)
+- other smaller fixes and improvements
 
 |$$2RIAllTheHaxx 0.36.4b released [08.07.18]|
 - fixed F1-autocompletion bug
@@ -91,20 +97,3 @@ Lua:
 - made Game.Ui:DoLabel{Scaled} fool-proof
 - added DEMORECORDER constants to twdata lib
 - added more functions to Game.Collision
-
-
-|$$Z00About the StealthMode|
-"StealthMode is to AllTheHaxx what botless-version is to bot clients"
-When starting your client in stealth mode, it will look to servers as if it was
-a vanilla client. Anyhow, it will also behave a bit more like a vanilla client.
-Servers won't be able to detect which client you are using and thus can't ban you
-for "bot client detected" (shoutout to noby). StealthMode will make it possible
-to play on such servers, but there are some sacrifices, too.
-Here is an overview about what starting ATH in StealthMode will do:
-- Lua will be unavailable (StealthMode replaces the old NoLua version of ATH)
-- Zoom will be unavailable except for race servers and spectating
-- Other ATH users will not see an 'ATH' over your tee
-- Not telling servers about your version might disable some features
-There are config variables to change the last two things though:
-cl_stealth_force_ath_broadcast - enabling this might get you auto-kicked!
-cl_stealth_send_ddnet_version - enable this for optimal compatibility
